@@ -6,7 +6,7 @@
 <header class="header slider-fade">
     <div class="owl-carousel owl-theme">
         <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
-        <div class="text-center item bg-img" data-overlay-dark="2" data-background="img/slider/2.jpg">
+        <div class="text-center item bg-img" data-overlay-dark="2" data-background="img/slider/slider1.jpeg">
             <div class="v-middle caption">
                 <div class="container">
                     <div class="row">
@@ -20,13 +20,13 @@
                             </span>
                             <h4>Luxury Hotel & Best Resort</h4>
                             <h1>Enjoy a Luxury Experience</h1>
-                            <div class="butn-light mt-30 mb-30"> <a href="#" data-scroll-nav="1"><span>Rooms & Suites</span></a> </div>
+                            <div class="butn-light mt-30 mb-30"> <a href="#" data-scroll-nav="1"><span>Odalar & Suitler</span></a> </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="text-center item bg-img" data-overlay-dark="2" data-background="img/slider/3.jpg">
+        <div class="text-center item bg-img" data-overlay-dark="2" data-background="img/slider/slider2.png">
             <div class="v-middle caption">
                 <div class="container">
                     <div class="row">
@@ -40,32 +40,13 @@
                             </span>
                             <h4>Unique Place to Relax & Enjoy</h4>
                             <h1>The Perfect Base For You</h1>
-                            <div class="butn-light mt-30 mb-30"> <a href="#" data-scroll-nav="1"><span>Rooms & Suites</span></a> </div>
+                            <div class="butn-light mt-30 mb-30"> <a href="#" data-scroll-nav="1"><span>Odalar & Suitler</span></a> </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="text-center item bg-img" data-overlay-dark="3" data-background="img/slider/1.jpg">
-            <div class="v-middle caption">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-10 offset-md-1">
-                            <span>
-                                <i class="star-rating"></i>
-                                <i class="star-rating"></i>
-                                <i class="star-rating"></i>
-                                <i class="star-rating"></i>
-                                <i class="star-rating"></i>
-                            </span>
-                            <h4>The Ultimate Luxury Experience</h4>
-                            <h1>Enjoy The Best Moments of Life</h1>
-                            <div class="butn-light mt-30 mb-30"> <a href="#" data-scroll-nav="1"><span>Rooms & Suites</span></a> </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     </div>
     <!-- slider reservation -->
     <div class="reservation">
@@ -73,7 +54,7 @@
             <div class="icon d-flex justify-content-center align-items-center">
                 <i class="flaticon-call"></i>
             </div>
-            <div class="call"><span>855 100 4444</span> <br>Reservation</div>
+            <div class="call"><span>855 100 4444</span> <br>Rezervasyon</div>
         </a>
     </div>
 </header>
@@ -110,7 +91,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col2 c4">
+                <!-- <div class="col2 c4">
                     <div class="select1_wrapper">
                         <label>Children</label>
                         <div class="select1_inner">
@@ -136,7 +117,7 @@
                             </select>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col3 c6">
                     <button type="submit" class="btn-form1-submit">Check Now</button>
                 </div>
@@ -156,15 +137,14 @@
                     <i class="star-rating"></i>
                     <i class="star-rating"></i>
                 </span>
-                <div class="section-subtitle">The Cappa Luxury Hotel</div>
-                <div class="section-title">Enjoy a Luxury Experience</div>
-                <p>Welcome to the best five-star deluxe hotel in New York. Hotel elementum sesue the aucan vestibulum aliquam justo in sapien rutrum volutpat. Donec in quis the pellentesque velit. Donec id velit ac arcu posuere blane.</p>
-                <p>Hotel ut nisl quam nestibulum ac quam nec odio elementum sceisue the aucan ligula. Orci varius natoque penatibus et magnis dis parturient monte nascete ridiculus mus nellentesque habitant morbine.</p>
+                <div class="section-subtitle">Pyramid Stone House</div>
+                <div class="section-title">Hakkımızda</div>
+                <p>Masalların, gerçeküstü öykülerin, kulaktan kulağa yayılan tüm o büyülü anlatılara konu olmuş bir kentin tam ortasında, sevgiye, mutluluğa, güzel anılar biriktirmeye inanan herkes evinde hissetsin diye kesişti yollarımız. “Hiçbir şey tesadüf değildir” derler, bu karşılaşma da öyle. Yüzyıllar boyunca sayısız hikayeye tanık olmuş bu sihirli yerde, size masallar diyarı Kapadokya’da bir eviniz olduğunu hissettirme hayaliyle buradayız. Attığınız her adımda farklı öyküler duyacağınız, sizi geçmişle gelecek arasında yolculuklara çıkaracak, her yanı tarih kokan bu kentte, bir masalın baş kahramanı olmaya hazır mısınız? </p>
                 <!-- call -->
                 <div class="reservations">
                     <div class="icon"><span class="flaticon-call"></span></div>
                     <div class="text">
-                        <p>Reservation</p> <a href="tel:855-100-4444">855 100 4444</a>
+                        <p>Rezervasyon</p> <a href="tel:855-100-4444">855 100 4444</a>
                     </div>
                 </div>
             </div>
@@ -182,86 +162,17 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="section-subtitle">The Cappa Luxury Hotel</div>
-                <div class="section-title">Rooms & Suites</div>
+                <div class="section-subtitle">Pyramid Stone House</div>
+                <div class="section-title">Odalar & Suitler</div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
-                <div class="item">
-                    <div class="position-re o-hidden"> <img src="img/rooms/1.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
-                    <div class="con">
-                        <h6><a href="room-details.html">150$ / Night</a></h6>
-                        <h5><a href="room-details.html">Junior Suite</a> </h5>
-                        <div class="line"></div>
-                        <div class="row facilities">
-                            <div class="col col-md-7">
-                                <ul>
-                                    <li><i class="flaticon-bed"></i></li>
-                                    <li><i class="flaticon-bath"></i></li>
-                                    <li><i class="flaticon-breakfast"></i></li>
-                                    <li><i class="flaticon-towel"></i></li>
-                                </ul>
-                            </div>
-                            <div class="col col-md-5 text-end">
-                                <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="item">
-                    <div class="position-re o-hidden"> <img src="img/rooms/2.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
-                    <div class="con">
-                        <h6><a href="room-details.html">200$ / Night</a></h6>
-                        <h5><a href="room-details.html">Family Room</a></h5>
-                        <div class="line"></div>
-                        <div class="row facilities">
-                            <div class="col col-md-7">
-                                <ul>
-                                    <li><i class="flaticon-bed"></i></li>
-                                    <li><i class="flaticon-bath"></i></li>
-                                    <li><i class="flaticon-breakfast"></i></li>
-                                    <li><i class="flaticon-towel"></i></li>
-                                </ul>
-                            </div>
-                            <div class="col col-md-5 text-end">
-                                <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="item">
-                    <div class="position-re o-hidden"> <img src="img/rooms/3.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
-                    <div class="con">
-                        <h6><a href="room-details.html">250$ / Night</a></h6>
-                        <h5><a href="room-details.html">Double Room</a></h5>
-                        <div class="line"></div>
-                        <div class="row facilities">
-                            <div class="col col-md-7">
-                                <ul>
-                                    <li><i class="flaticon-bed"></i></li>
-                                    <li><i class="flaticon-bath"></i></li>
-                                    <li><i class="flaticon-breakfast"></i></li>
-                                    <li><i class="flaticon-towel"></i></li>
-                                </ul>
-                            </div>
-                            <div class="col col-md-5 text-end">
-                                <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+         
             <div class="col-md-6">
                 <div class="item">
                     <div class="position-re o-hidden"> <img src="img/rooms/4.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
                     <div class="con">
-                        <h6><a href="room-details.html">300$ / Night</a></h6>
-                        <h5><a href="room-details.html">Deluxe Room</a></h5>
+                        <h5><a href="room-details.php">Moon Room</a></h5>
                         <div class="line"></div>
                         <div class="row facilities">
                             <div class="col col-md-7">
@@ -273,7 +184,7 @@
                                 </ul>
                             </div>
                             <div class="col col-md-5 text-end">
-                                <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+                                <div class="permalink"><a href="room-details.php">Details <i class="ti-arrow-right"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -283,8 +194,7 @@
                 <div class="item">
                     <div class="position-re o-hidden"> <img src="img/rooms/7.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
                     <div class="con">
-                        <h6><a href="room-details.html">150$ / Night</a></h6>
-                        <h5><a href="room-details.html">Superior Room</a></h5>
+                        <h5><a href="room-details.php">Sun Room</a></h5>
                         <div class="line"></div>
                         <div class="row facilities">
                             <div class="col col-md-7">
@@ -296,7 +206,7 @@
                                 </ul>
                             </div>
                             <div class="col col-md-5 text-end">
-                                <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+                                <div class="permalink"><a href="room-details.php">Details <i class="ti-arrow-right"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -310,8 +220,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <div class="section-subtitle"><span>Best Prices</span></div>
-                <div class="section-title"><span>Extra Services</span></div>
+                <div class="section-subtitle"><span>Popüler</span></div>
+                <div class="section-title"><span>AKTİVİTELER</span></div>
                 <p class="color-2">The best prices for your relaxing vacation. The utanislen quam nestibulum ac quame odion elementum sceisue the aucan.</p>
                 <p class="color-2">Orci varius natoque penatibus et magnis disney parturient monte nascete ridiculus mus nellen etesque habitant morbine.</p>
                 <div class="reservations mb-30">
@@ -327,7 +237,7 @@
                         <img src="img/pricing/1.jpg" alt="">
                         <div class="desc">
                             <div class="name">Room cleaning</div>
-                            <div class="amount">$50<span>/ month</span></div>
+                            <!-- <div class="amount">$50<span>/ month</span></div> -->
                             <ul class="list-unstyled list">
                                 <li><i class="ti-check"></i> Hotel ut nisan the duru</li>
                                 <li><i class="ti-check"></i> Orci miss natoque vasa ince</li>
@@ -339,7 +249,6 @@
                         <img src="img/pricing/2.jpg" alt="">
                         <div class="desc">
                             <div class="name">Drinks included</div>
-                            <div class="amount">$30<span>/ daily</span></div>
                             <ul class="list-unstyled list">
                                 <li><i class="ti-check"></i> Hotel ut nisan the duru</li>
                                 <li><i class="ti-check"></i> Orci miss natoque vasa ince</li>
@@ -351,7 +260,6 @@
                         <img src="img/pricing/3.jpg" alt="">
                         <div class="desc">
                             <div class="name">Room Breakfast</div>
-                            <div class="amount">$30<span>/ daily</span></div>
                             <ul class="list-unstyled list">
                                 <li><i class="ti-check"></i> Hotel ut nisan the duru</li>
                                 <li><i class="ti-check"></i> Orci miss natoque vasa ince</li>
@@ -363,7 +271,7 @@
                         <img src="img/pricing/4.jpg" alt="">
                         <div class="desc">
                             <div class="name">Safe & Secure</div>
-                            <div class="amount">$15<span>/ daily</span></div>
+                            <!-- <div class="amount">$15<span>/ daily</span></div> -->
                             <ul class="list-unstyled list">
                                 <li><i class="ti-check"></i> Hotel ut nisan the duru</li>
                                 <li><i class="ti-check"></i> Orci miss natoque vasa ince</li>
@@ -382,7 +290,7 @@
         <div class="row">
             <div class="col-md-8 offset-md-2 text-center">
                 <span><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></span>
-                <div class="section-subtitle"><span>The Cappa Luxury Hotel</span></div>
+                <div class="section-subtitle"><span>Pyramid Stone House</span></div>
                 <div class="section-title"><span>Promotional Video</span></div>
             </div>
         </div>
@@ -405,15 +313,15 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="section-subtitle">Our Services</div>
-                <div class="section-title">Hotel Facilities</div>
+                <div class="section-subtitle">Servisler</div>
+                <div class="section-title">Hotel Servisleri</div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-4">
                 <div class="single-facility animate-box" data-animate-effect="fadeInUp">
                     <span class="flaticon-world"></span>
-                    <h5>Pick Up & Drop</h5>
+                    <h5>Ulaşım</h5>
                     <p>We’ll pick up from airport while you comfy on your ride, mus nellentesque habitant.</p>
                     <div class="facility-shape"> <span class="flaticon-world"></span> </div>
                 </div>
@@ -421,7 +329,7 @@
             <div class="col-md-4">
                 <div class="single-facility animate-box" data-animate-effect="fadeInUp">
                     <span class="flaticon-car"></span>
-                    <h5>Parking Space</h5>
+                    <h5>Otopark</h5>
                     <p>Fusce tincidunt nis ace park norttito sit amet space, mus nellentesque habitant.</p>
                     <div class="facility-shape"> <span class="flaticon-car"></span> </div>
                 </div>
@@ -429,7 +337,7 @@
             <div class="col-md-4">
                 <div class="single-facility animate-box" data-animate-effect="fadeInUp">
                     <span class="flaticon-bed"></span>
-                    <h5>Room Service</h5>
+                    <h5>Oda Servisleri</h5>
                     <p>Room tincidunt nis ace park norttito sit amet space, mus nellentesque habitant.</p>
                     <div class="facility-shape"> <span class="flaticon-bed"></span> </div>
                 </div>
@@ -437,7 +345,7 @@
             <div class="col-md-4">
                 <div class="single-facility animate-box" data-animate-effect="fadeInUp">
                     <span class="flaticon-swimming"></span>
-                    <h5>Swimming Pool</h5>
+                    <h5>Yüzme Havuzu</h5>
                     <p>Swimming pool tincidunt nise ace park norttito sit space, mus nellentesque habitant.</p>
                     <div class="facility-shape"> <span class="flaticon-swimming"></span> </div>
                 </div>
@@ -445,7 +353,7 @@
             <div class="col-md-4">
                 <div class="single-facility animate-box" data-animate-effect="fadeInUp">
                     <span class="flaticon-wifi"></span>
-                    <h5>Fibre Internet</h5>
+                    <h5>İnternet & Wifi</h5>
                     <p>Wifi tincidunt nis ace park norttito sit amet space, mus nellentesque habitant.</p>
                     <div class="facility-shape"> <span class="flaticon-wifi"></span> </div>
                 </div>
@@ -453,7 +361,7 @@
             <div class="col-md-4">
                 <div class="single-facility animate-box" data-animate-effect="fadeInUp">
                     <span class="flaticon-breakfast"></span>
-                    <h5>Breakfast</h5>
+                    <h5>Kahvaltı</h5>
                     <p>Eat tincidunt nisa ace park norttito sit amet space, mus nellentesque habitant</p>
                     <div class="facility-shape"> <span class="flaticon-breakfast"></span> </div>
                 </div>
@@ -461,144 +369,14 @@
         </div>
     </div>
 </section>
-<!-- Testiominals -->
-<section class="testimonials">
-    <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/slider/2.jpg" data-overlay-dark="3">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 offset-md-2">
-                    <div class="testimonials-box">
-                        <div class="head-box">
-                            <h6>Testimonials</h6>
-                            <h4>What Client's Say?</h4>
-                            <div class="line"></div>
-                        </div>
-                        <div class="owl-carousel owl-theme">
-                            <div class="item">
-                                <span class="quote"><img src="img/quot.png" alt=""></span>
-                                <p>Hotel dapibus asue metus the nec feusiate eraten miss hendreri net ve ante the lemon sanleo nectan feugiat erat hendrerit necuis ve ante otel inilla duiman at finibus viverra neca the sene on satien the miss drana inc fermen norttito sit space, mus nellentesque habitan.</p>
-                                <div class="info">
-                                    <div class="author-img"> <img src="img/team/4.jpg" alt=""> </div>
-                                    <div class="cont"> <span><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></span>
-                                        <h6>Emily Brown</h6> <span>Guest review</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <span class="quote"><img src="img/quot.png" alt=""></span>
-                                <p>Hotel dapibus asue metus the nec feusiate eraten miss hendreri net ve ante the lemon sanleo nectan feugiat erat hendrerit necuis ve ante otel inilla duiman at finibus viverra neca the sene on satien the miss drana inc fermen norttito sit space, mus nellentesque habitan.</p>
-                                <div class="info">
-                                    <div class="author-img"> <img src="img/team/1.jpg" alt=""> </div>
-                                    <div class="cont"> <span><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></span>
-                                        <h6>Nolan White</h6> <span>Guest review</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <span class="quote"><img src="img/quot.png" alt=""></span>
-                                <p>Hotel dapibus asue metus the nec feusiate eraten miss hendreri net ve ante the lemon sanleo nectan feugiat erat hendrerit necuis ve ante otel inilla duiman at finibus viverra neca the sene on satien the miss drana inc fermen norttito sit space, mus nellentesque habitan.</p>
-                                <div class="info">
-                                    <div class="author-img"> <img src="img/team/5.jpg" alt=""> </div>
-                                    <div class="cont"> <span><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></span>
-                                        <h6>Olivia Martin</h6> <span>Guest review</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Services -->
-<section class="services section-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 p-0 animate-box" data-animate-effect="fadeInLeft">
-                <div class="img left">
-                    <a href="restaurant.html"><img src="img/restaurant/1.jpg" alt=""></a>
-                </div>
-            </div>
-            <div class="col-md-6 p-0 bg-cream valign animate-box" data-animate-effect="fadeInRight">
-                <div class="content">
-                    <div class="cont text-left">
-                        <div class="info">
-                            <h6>Discover</h6>
-                        </div>
-                        <h4>The Restaurant</h4>
-                        <p>Restaurant inilla duiman at elit finibus viverra nec a lacus themo the nesudea seneoice misuscipit non sagie the fermen ziverra tristiue duru the ivite dianne onen nivami acsestion augue artine.</p>
-                        <div class="butn-dark"> <a href="restaurant.html"><span>Learn More</span></a> </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 bg-cream p-0 order2 valign animate-box" data-animate-effect="fadeInLeft">
-                <div class="content">
-                    <div class="cont text-left">
-                        <div class="info">
-                            <h6>Experiences</h6>
-                        </div>
-                        <h4>Spa Center</h4>
-                        <p>Spa center inilla duiman at elit finibus viverra nec a lacus themo the nesudea seneoice misuscipit non sagie the fermen ziverra tristiue duru the ivite dianne onen nivami acsestion augue artine.</p>
-                        <div class="butn-dark"> <a href="spa-wellness.html"><span>Learn More</span></a> </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 p-0 order1 animate-box" data-animate-effect="fadeInRight">
-                <div class="img">
-                    <a href="spa-wellness.html"><img src="img/spa/3.jpg" alt=""></a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 p-0 animate-box" data-animate-effect="fadeInLeft">
-                <div class="img left">
-                    <a href="spa-wellness.html"><img src="img/spa/2.jpg" alt=""></a>
-                </div>
-            </div>
-            <div class="col-md-6 p-0 bg-cream valign animate-box" data-animate-effect="fadeInRight">
-                <div class="content">
-                    <div class="cont text-left">
-                        <div class="info">
-                            <h6>Modern</h6>
-                        </div>
-                        <h4>Fitness Center</h4>
-                        <p>Restaurant inilla duiman at elit finibus viverra nec a lacus themo the nesudea seneoice misuscipit non sagie the fermen ziverra tristiue duru the ivite dianne onen nivami acsestion augue artine.</p>
-                        <div class="butn-dark"> <a href="spa-wellness.html"><span>Learn More</span></a> </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 bg-cream p-0 order2 valign animate-box" data-animate-effect="fadeInLeft">
-                <div class="content">
-                    <div class="cont text-left">
-                        <div class="info">
-                            <h6>Experiences</h6>
-                        </div>
-                        <h4>The Health Club & Pool</h4>
-                        <p>The health club & pool at elit finibus viverra nec a lacus themo the nesudea seneoice misuscipit non sagie the fermen ziverra tristiue duru the ivite dianne onen nivami acsestion augue artine.</p>
-                        <div class="butn-dark"> <a href="spa-wellness.html"><span>Learn More</span></a> </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 p-0 order1 animate-box" data-animate-effect="fadeInRight">
-                <div class="img">
-                    <a href="spa-wellness.html"><img src="img/spa/1.jpg" alt=""></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- News -->
+
+
 <section class="news section-padding bg-blck">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="section-subtitle"><span>Hotel Blog</span></div>
-                <div class="section-title"><span>Our News</span></div>
+                <div class="section-subtitle"><span>Blog</span></div>
+                <div class="section-title"><span>Duyurular</span></div>
             </div>
         </div>
         <div class="row">
@@ -685,19 +463,19 @@
         </div>
     </div>
 </section>
-<!-- Reservation & Booking Form -->
+<!-- Rezervasyon & Booking Form -->
 <section class="testimonials">
     <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/slider/2.jpg" data-overlay-dark="2">
         <div class="container">
             <div class="row">
-                <!-- Reservation -->
+                <!-- Rezervasyon -->
                 <div class="col-md-5 mb-30 mt-30">
                     <p><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></p>
                     <h5>Each of our guest rooms feature a private bath, wi-fi, cable television and include full breakfast.</h5>
                     <div class="reservations mb-30">
                         <div class="icon color-1"><span class="flaticon-call"></span></div>
                         <div class="text">
-                            <p class="color-1">Reservation</p> <a class="color-1" href="tel:855-100-4444">855 100 4444</a>
+                            <p class="color-1">Rezervasyon</p> <a class="color-1" href="tel:855-100-4444">855 100 4444</a>
                         </div>
                     </div>
                     <p><i class="ti-check"></i><small>Call us, it's toll-free.</small></p>
@@ -706,7 +484,7 @@
                 <div class="col-md-5 offset-md-2">
                     <div class="booking-box">
                         <div class="head-box">
-                            <h6>Rooms & Suites</h6>
+                            <h6>Odalar & Suitler</h6>
                             <h4>Hotel Booking Form</h4>
                         </div>
                         <div class="booking-inner clearfix">

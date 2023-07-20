@@ -46,22 +46,22 @@
                             <li><a href="index15.html" class="dropdown-item"><span>Grid Background 2</span></a></li>
                         </ul>     
                     </li> -->
-                    <li class="nav-item"><a class="nav-link" href="about.html">Hakkımızda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about-us.php">Hakkımızda</a></li>
                     <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">ODALAR & SUİTLER <i class="ti-angle-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="room-details.html" class="dropdown-item"><span>Oda Tipi</span></a></li>
+                            <li><a href="room-details.php" class="dropdown-item"><span>Moon Room</span></a></li>
                             <!-- <li><a href="rooms2.html" class="dropdown-item"><span>Rooms 2</span></a></li>
                             <li><a href="rooms3.html" class="dropdown-item"><span>Rooms 3</span></a></li>
-                            <li><a href="room-details.html" class="dropdown-item"><span>Room Details</span></a></li> -->
+                            <li><a href="room-details.php" class="dropdown-item"><span>Room Details</span></a></li> -->
                         </ul>
                     </li>
                     <!-- <li class="nav-item"><a class="nav-link" href="restaurant.html">Restaurant</a></li>
                     <li class="nav-item"><a class="nav-link" href="spa-wellness.html">Spa</a></li> -->
-                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Pages <i class="ti-angle-down"></i></a>
+                    <!-- <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">GALERİ <i class="ti-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="services.html" class="dropdown-item"><span>Services</span></a></li>
                             <li><a href="facilities.html" class="dropdown-item"><span>Facilities</span></a></li>
-                            <li><a href="gallery.html" class="dropdown-item"><span>Gallery</span></a></li>
+                            <li><a href="gallery.php" class="dropdown-item"><span>Gallery</span></a></li>
                             <li><a href="team.html" class="dropdown-item"><span>Team</span></a></li>
                             <li><a href="pricing.html" class="dropdown-item"><span>Pricing</span></a></li>
                             <li><a href="careers.html" class="dropdown-item"><span>Careers</span></a></li>
@@ -73,22 +73,27 @@
                                 </ul>
                             </li>
                         </ul>
-                    </li>
-                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">AKTİVİTELER<i class="ti-angle-down"></i></a>
+                    </li> -->
+                    <li class="nav-item"><a class="nav-link" href="gallery.php">GALERİ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="activities.php">AKTİVİTELER</a></li>
+
+                    <!-- <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">AKTİVİTELER<i class="ti-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="news.html" class="dropdown-item"><span>News 1</span></a></li>
                             <li><a href="news2.html" class="dropdown-item"><span>News 2</span></a></li>
                             <li><a href="post.html" class="dropdown-item"><span>Post Page</span></a></li>
                         </ul>
-                    </li>
-                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">News <i class="ti-angle-down"></i></a>
+                    </li> -->
+                    <li class="nav-item"><a class="nav-link" href="blog.php">Duyurular</a></li>
+
+                    <!-- <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Duyurular <i class="ti-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="news.html" class="dropdown-item"><span>News 1</span></a></li>
                             <li><a href="news2.html" class="dropdown-item"><span>News 2</span></a></li>
                             <li><a href="post.html" class="dropdown-item"><span>Post Page</span></a></li>
                         </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </li> -->
+                    <li class="nav-item"><a class="nav-link" href="contact.php">İLETİŞİM</a></li>
                 </ul>
             </div>
         </div>
