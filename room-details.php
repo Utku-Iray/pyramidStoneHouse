@@ -76,12 +76,12 @@
                         <p>Pets not allowed</p>
                     </div>
                     <div class="col-md-12">
-                        <h6>Children and extra beds</h6>
-                        <p>Children are welcome Kids stay free! Children stay free when using existing bedding; children may not be eligible for complimentary breakfast Rollaway/extra beds are available for $ 10 per day.</p>
+                        <h6>Çocuk and extra beds</h6>
+                        <p>Çocuk are welcome Kids stay free! Çocuk stay free when using existing bedding; Çocuk may not be eligible for complimentary breakfast Rollaway/extra beds are available for $ 10 per day.</p>
                     </div>
-                    <div class="col-md-12">
+                    <!-- <div class="col-md-12">
                         <div class="butn-dark mt-15 mb-30"> <a href="rooms2.html"><span>Check Now</span></a> </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-md-4  ">
@@ -89,7 +89,7 @@
                     <div class="title d-flex justify-content-between">
                         <div class="butn-dark">
                         <a href="#" class="text-center mx-auto butn-dark"><span class="flaticon-call"></span> Hemen Ara</a>
-                        <a href="#" class="text-center mx-auto butn-dark"><span class="ti-bell">Rezervasyon</a>
+                        <a href="#" class="text-center mx-auto butn-dark"><span class="ti-bell">REZERVASYON</a>
                         </div>
                     </div>
                 </div>
@@ -288,7 +288,7 @@
                 <div class="reservations mb-30">
                     <div class="icon"><span class="flaticon-call"></span></div>
                     <div class="text">
-                        <p>For information</p> <a href="tel:855-100-4444">855 100 4444</a>
+                        <p>For information</p> <a href="tel:855-100-4444">0384 219 4040</a>
                     </div>
                 </div>
             </div>
@@ -355,7 +355,7 @@
                     <div class="reservations mb-30">
                         <div class="icon color-1"><span class="flaticon-call"></span></div>
                         <div class="text">
-                            <p class="color-1">Rezervasyon</p> <a class="color-1" href="tel:855-100-4444">855 100 4444</a>
+                            <p class="color-1">Rezervasyon</p> <a class="color-1" href="tel:855-100-4444">0384 219 4040</a>
                         </div>
                     </div>
                     <p><i class="ti-check"></i><small>Call us, it's toll-free.</small></p>
@@ -365,33 +365,33 @@
                     <div class="booking-box">
                         <div class="head-box">
                             <h6>Odalar & Suitler</h6>
-                            <h4>Hotel Booking Form</h4>
+                            <h4>Otel Rezervasyon Formu</h4>
                         </div>
                         <div class="booking-inner clearfix">
                             <form action="rooms2.html" class="form1 clearfix">
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="input1_wrapper">
-                                            <label>Check in</label>
+                                            <label>Giriş</label>
                                             <div class="input1_inner">
-                                                <input type="text" class="form-control input datepicker" placeholder="Check in">
+                                                <input type="text" class="form-control input datepicker" placeholder="Giriş">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="input1_wrapper">
-                                            <label>Check out</label>
+                                            <label>Çıkış</label>
                                             <div class="input1_inner">
-                                                <input type="text" class="form-control input datepicker" placeholder="Check out">
+                                                <input type="text" class="form-control input datepicker" placeholder="Çıkış">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="select1_wrapper">
-                                            <label>Adults</label>
+                                            <label>Kişi</label>
                                             <div class="select1_inner">
                                                 <select class="select2 select" style="width: 100%">
-                                                    <option value="0">Adults</option>
+                                                    <option value="0">Kişi</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
@@ -402,10 +402,10 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="select1_wrapper">
-                                            <label>Children</label>
+                                            <label>Çocuk</label>
                                             <div class="select1_inner">
                                                 <select class="select2 select" style="width: 100%">
-                                                    <option value="0">Children</option>
+                                                    <option value="0">Çocuk</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
@@ -415,7 +415,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-12">
-                                        <button type="submit" class="btn-form1-submit mt-15">Check Availability</button>
+                                        <button type="submit" class="btn-form1-submit mt-15">Rezervasyon</button>
                                     </div>
                                 </div>
                             </form>

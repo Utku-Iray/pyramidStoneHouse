@@ -23,17 +23,17 @@
                 <div class="col-md-4">
                     <div class="footer-column footer-contact">
                         <h3 class="footer-title">Contact</h3>
-                        <p class="footer-contact-text">1616 Broadway NY, New York 10001<br>United States of America</p>
+                        <p class="footer-contact-text">Aşağı Mahalle, Keçeci Evi Sokak,<br> No:4 Uçhisar/NEVŞEHİR</p>
                         <div class="footer-contact-info">
-                            <p class="footer-contact-phone"><span class="flaticon-call"></span> 855 100 4444</p>
+                            <p class="footer-contact-phone"><span class="flaticon-call"></span>0384 219 4040</p>
                             <p class="footer-contact-mail">info@pyramidstonehouse.com</p>
                         </div>
                         <div class="footer-about-social-list">
                             <a href="#"><i class="ti-instagram"></i></a>
-                            <a href="#"><i class="ti-twitter"></i></a>
+                            <!-- <a href="#"><i class="ti-twitter"></i></a> -->
                             <a href="#"><i class="ti-youtube"></i></a>
                             <a href="#"><i class="ti-facebook"></i></a>
-                            <a href="#"><i class="ti-pinterest"></i></a>
+                            <!-- <a href="#"><i class="ti-pinterest"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="footer-bottom-inner">
-                        <p class="footer-bottom-copy-right">© Copyright 2023 by <a href="#">DuruThemes.com</a></p>
+                        <p class="footer-bottom-copy-right">© Copyright 2023 by <a href="https://www.fikirbuzz.com/">fikirbuzz.com</a></p>
                     </div>
                 </div>
             </div>

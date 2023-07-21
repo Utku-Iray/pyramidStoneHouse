@@ -902,7 +902,7 @@ S2.define('select2/results',[
     var $options = [];
 
     if (data.results == null || data.results.length === 0) {
-      if (this.$results.children().length === 0) {
+      if (this.$results.Çocuk().length === 0) {
         this.trigger('results:message', {
           message: 'noResults'
         });
@@ -1030,7 +1030,7 @@ S2.define('select2/results',[
       option.title = data.title;
     }
 
-    if (data.children) {
+    if (data.Çocuk) {
       attrs.role = 'group';
       attrs['aria-label'] = data.text;
       delete attrs['aria-selected'];
@@ -1042,7 +1042,7 @@ S2.define('select2/results',[
       option.setAttribute(attr, val);
     }
 
-    if (data.children) {
+    if (data.Çocuk) {
       var $option = $(option);
 
       var label = document.createElement('strong');
@@ -1051,24 +1051,24 @@ S2.define('select2/results',[
       var $label = $(label);
       this.template(data, label);
 
-      var $children = [];
+      var $Çocuk = [];
 
-      for (var c = 0; c < data.children.length; c++) {
-        var child = data.children[c];
+      for (var c = 0; c < data.Çocuk.length; c++) {
+        var child = data.Çocuk[c];
 
         var $child = this.option(child);
 
-        $children.push($child);
+        $Çocuk.push($child);
       }
 
-      var $childrenContainer = $('<ul></ul>', {
+      var $ÇocukContainer = $('<ul></ul>', {
         'class': 'select2-results__options select2-results__options--nested'
       });
 
-      $childrenContainer.append($children);
+      $ÇocukContainer.append($Çocuk);
 
       $option.append(label);
-      $option.append($childrenContainer);
+      $option.append($ÇocukContainer);
     } else {
       this.template(data, option);
     }
@@ -3257,7 +3257,7 @@ S2.define('select2/data/select',[
     var data = [];
     var self = this;
 
-    var $options = this.$element.children();
+    var $options = this.$element.Çocuk();
 
     $options.each(function () {
       var $option = $(this);
@@ -3287,7 +3287,7 @@ S2.define('select2/data/select',[
   SelectAdapter.prototype.option = function (data) {
     var option;
 
-    if (data.children) {
+    if (data.Çocuk) {
       option = document.createElement('optgroup');
       option.label = data.text;
     } else {
@@ -3347,22 +3347,22 @@ S2.define('select2/data/select',[
     } else if ($option.is('optgroup')) {
       data = {
         text: $option.prop('label'),
-        children: [],
+        Çocuk: [],
         title: $option.prop('title')
       };
 
-      var $children = $option.children('option');
-      var children = [];
+      var $Çocuk = $option.Çocuk('option');
+      var Çocuk = [];
 
-      for (var c = 0; c < $children.length; c++) {
-        var $child = $($children[c]);
+      for (var c = 0; c < $Çocuk.length; c++) {
+        var $child = $($Çocuk[c]);
 
         var child = this.item($child);
 
-        children.push(child);
+        Çocuk.push(child);
       }
 
-      data.children = children;
+      data.Çocuk = Çocuk;
     }
 
     data = this._normalizeItem(data);
@@ -3479,10 +3479,10 @@ S2.define('select2/data/array',[
 
       var $option = this.option(item);
 
-      if (item.children) {
-        var $children = this.convertToOptions(item.children);
+      if (item.Çocuk) {
+        var $Çocuk = this.convertToOptions(item.Çocuk);
 
-        Utils.appendMany($option, $children);
+        Utils.appendMany($option, $Çocuk);
       }
 
       $options.push($option);
@@ -3653,10 +3653,10 @@ S2.define('select2/data/tags',[
       for (var i = 0; i < data.length; i++) {
         var option = data[i];
 
-        var checkChildren = (
-          option.children != null &&
+        var checkÇocuk = (
+          option.Çocuk != null &&
           !wrapper({
-            results: option.children
+            results: option.Çocuk
           }, true)
         );
 
@@ -3665,7 +3665,7 @@ S2.define('select2/data/tags',[
 
         var checkText = optionText === paramsTerm;
 
-        if (checkText || checkChildren) {
+        if (checkText || checkÇocuk) {
           if (child) {
             return false;
           }
@@ -4457,8 +4457,8 @@ S2.define('select2/dropdown/minimumResultsForSearch',[
     for (var d = 0; d < data.length; d++) {
       var item = data[d];
 
-      if (item.children) {
-        count += countResults(item.children);
+      if (item.Çocuk) {
+        count += countResults(item.Çocuk);
       } else {
         count++;
       }
@@ -4934,30 +4934,30 @@ S2.define('select2/defaults',[
         return data;
       }
 
-      // Do a recursive check for options with children
-      if (data.children && data.children.length > 0) {
-        // Clone the data object if there are children
+      // Do a recursive check for options with Çocuk
+      if (data.Çocuk && data.Çocuk.length > 0) {
+        // Clone the data object if there are Çocuk
         // This is required as we modify the object to remove any non-matches
         var match = $.extend(true, {}, data);
 
         // Check each child of the option
-        for (var c = data.children.length - 1; c >= 0; c--) {
-          var child = data.children[c];
+        for (var c = data.Çocuk.length - 1; c >= 0; c--) {
+          var child = data.Çocuk[c];
 
           var matches = matcher(params, child);
 
           // If there wasn't a match, remove the object in the array
           if (matches == null) {
-            match.children.splice(c, 1);
+            match.Çocuk.splice(c, 1);
           }
         }
 
-        // If any children matched, return the new object
-        if (match.children.length > 0) {
+        // If any Çocuk matched, return the new object
+        if (match.Çocuk.length > 0) {
           return match;
         }
 
-        // If there were no matching children, check just the plain object
+        // If there were no matching Çocuk, check just the plain object
         return matcher(params, match);
       }
 

@@ -54,7 +54,7 @@
             <div class="icon d-flex justify-content-center align-items-center">
                 <i class="flaticon-call"></i>
             </div>
-            <div class="call"><span>855 100 4444</span> <br>Rezervasyon</div>
+            <div class="call"><span>0384 219 4040</span> <br>Rezervasyon</div>
         </a>
     </div>
 </header>
@@ -64,43 +64,43 @@
             <form action="rooms.html" class="form1 clearfix">
                 <div class="col1 c1">
                     <div class="input1_wrapper">
-                        <label>Check in</label>
+                        <label>Giriş</label>
                         <div class="input1_inner">
-                            <input type="text" class="form-control input datepicker" placeholder="Check in">
+                            <input type="text" class="form-control input datepicker" placeholder="Giriş">
                         </div>
                     </div>
                 </div>
                 <div class="col1 c2">
                     <div class="input1_wrapper">
-                        <label>Check out</label>
+                        <label>Çıkış</label>
                         <div class="input1_inner">
-                            <input type="text" class="form-control input datepicker" placeholder="Check out">
+                            <input type="text" class="form-control input datepicker" placeholder="Çıkış">
                         </div>
                     </div>
                 </div>
                 <div class="col2 c3">
                     <div class="select1_wrapper">
-                        <label>Adults</label>
+                        <label>Kişi</label>
                         <div class="select1_inner">
                             <select class="select2 select" style="width: 100%">
-                                <option value="1">1 Adult</option>
-                                <option value="2">2 Adults</option>
-                                <option value="3">3 Adults</option>
-                                <option value="4">4 Adults</option>
+                                <option value="1">1 Kişi</option>
+                                <option value="2">2 Kişi</option>
+                                <option value="3">3 Kişi</option>
+                                <option value="4">4 Kişi</option>
                             </select>
                         </div>
                     </div>
                 </div>
                 <!-- <div class="col2 c4">
                     <div class="select1_wrapper">
-                        <label>Children</label>
+                        <label>Çocuk</label>
                         <div class="select1_inner">
                             <select class="select2 select" style="width: 100%">
-                                <option value="1">Children</option>
+                                <option value="1">Çocuk</option>
                                 <option value="1">1 Child</option>
-                                <option value="2">2 Children</option>
-                                <option value="3">3 Children</option>
-                                <option value="4">4 Children</option>
+                                <option value="2">2 Çocuk</option>
+                                <option value="3">3 Çocuk</option>
+                                <option value="4">4 Çocuk</option>
                             </select>
                         </div>
                     </div>
@@ -119,7 +119,7 @@
                     </div>
                 </div> -->
                 <div class="col3 c6">
-                    <button type="submit" class="btn-form1-submit">Check Now</button>
+                    <button type="submit" class="btn-form1-submit">Rezervasyon</button>
                 </div>
             </form>
         </div>
@@ -144,7 +144,7 @@
                 <div class="reservations">
                     <div class="icon"><span class="flaticon-call"></span></div>
                     <div class="text">
-                        <p>Rezervasyon</p> <a href="tel:855-100-4444">855 100 4444</a>
+                        <p>Rezervasyon</p> <a href="tel:855-100-4444">0384 219 4040</a>
                     </div>
                 </div>
             </div>
@@ -227,16 +227,16 @@
                 <div class="reservations mb-30">
                     <div class="icon"><span class="flaticon-call"></span></div>
                     <div class="text">
-                        <p class="color-2">For information</p> <a href="tel:855-100-4444">855 100 4444</a>
+                        <p class="color-2">For information</p> <a href="tel:855-100-4444">0384 219 4040</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-8">
                 <div class="owl-carousel owl-theme">
                     <div class="pricing-card">
-                        <img src="img/pricing/1.jpg" alt="">
+                        <img src="img/aktiviteler/aktivite-balon.jpg" alt="">
                         <div class="desc">
-                            <div class="name">Room cleaning</div>
+                            <div class="name">Balon Turları</div>
                             <!-- <div class="amount">$50<span>/ month</span></div> -->
                             <ul class="list-unstyled list">
                                 <li><i class="ti-check"></i> Hotel ut nisan the duru</li>
@@ -246,9 +246,9 @@
                         </div>
                     </div>
                     <div class="pricing-card">
-                        <img src="img/pricing/2.jpg" alt="">
+                        <img src="img/aktiviteler/aktivite-atv.jpg" alt="">
                         <div class="desc">
-                            <div class="name">Drinks included</div>
+                            <div class="name">Atv Turları</div>
                             <ul class="list-unstyled list">
                                 <li><i class="ti-check"></i> Hotel ut nisan the duru</li>
                                 <li><i class="ti-check"></i> Orci miss natoque vasa ince</li>
@@ -257,9 +257,9 @@
                         </div>
                     </div>
                     <div class="pricing-card">
-                        <img src="img/pricing/3.jpg" alt="">
+                        <img src="img/aktiviteler/masaj-aktiviteleri.jpg" alt="">
                         <div class="desc">
-                            <div class="name">Room Breakfast</div>
+                            <div class="name">Özel Masajlar</div>
                             <ul class="list-unstyled list">
                                 <li><i class="ti-check"></i> Hotel ut nisan the duru</li>
                                 <li><i class="ti-check"></i> Orci miss natoque vasa ince</li>
@@ -385,75 +385,75 @@
                     <div class="item">
                         <div class="position-re o-hidden"> <img src="img/news/1.jpg" alt="">
                             <div class="date">
-                                <a href="post.html"> <span>Dec</span> <i>02</i> </a>
+                                <a href="blog.php"> <span>Dec</span> <i>02</i> </a>
                             </div>
                         </div>
                         <div class="con"> <span class="category">
                                 <a href="news.html">Restaurant</a>
                             </span>
-                            <h5><a href="post.html">Historic restaurant renovated</a></h5>
+                            <h5><a href="blog.php">Historic restaurant renovated</a></h5>
                         </div>
                     </div>
                     <div class="item">
                         <div class="position-re o-hidden"> <img src="img/news/2.jpg" alt="">
                             <div class="date">
-                                <a href="post.html"> <span>Dec</span> <i>04</i> </a>
+                                <a href="blog.php"> <span>Dec</span> <i>04</i> </a>
                             </div>
                         </div>
                         <div class="con"> <span class="category">
                                 <a href="news.html">Spa</a>
                             </span>
-                            <h5><a href="post.html">Benefits of Spa Treatments</a></h5>
+                            <h5><a href="blog.php">Benefits of Spa Treatments</a></h5>
                         </div>
                     </div>
                     <div class="item">
                         <div class="position-re o-hidden"> <img src="img/news/3.jpg" alt="">
                             <div class="date">
-                                <a href="post.html"> <span>Dec</span> <i>06</i> </a>
+                                <a href="blog.php"> <span>Dec</span> <i>06</i> </a>
                             </div>
                         </div>
                         <div class="con"> <span class="category">
                                 <a href="news.html">Bathrooms</a>
                             </span>
-                            <h5><a href="post.html">Hotel Bathroom Collections</a></h5>
+                            <h5><a href="blog.php">Hotel Bathroom Collections</a></h5>
                         </div>
                     </div>
                     <div class="item">
                         <div class="position-re o-hidden"> <img src="img/news/4.jpg" alt="">
                             <div class="date">
-                                <a href="post.html"> <span>Dec</span> <i>08</i> </a>
+                                <a href="blog.php"> <span>Dec</span> <i>08</i> </a>
                             </div>
                         </div>
                         <div class="con">
                             <span class="category">
                                 <a href="news.html">Health</a>
                             </span>
-                            <h5><a href="post.html">Weight Loss with Fitness Health Club</a></h5>
+                            <h5><a href="blog.php">Weight Loss with Fitness Health Club</a></h5>
                         </div>
                     </div>
 
                     <div class="item">
                         <div class="position-re o-hidden"> <img src="img/news/6.jpg" alt="">
                             <div class="date">
-                                <a href="post.html"> <span>Dec</span> <i>08</i> </a>
+                                <a href="blog.php"> <span>Dec</span> <i>08</i> </a>
                             </div>
                         </div>
                         <div class="con"> <span class="category">
                                 <a href="news.html">Design</a>
                             </span>
-                            <h5><a href="post.html">Retro Lighting Design in The Hotels</a></h5>
+                            <h5><a href="blog.php">Retro Lighting Design in The Hotels</a></h5>
                         </div>
                     </div>
                     <div class="item">
                         <div class="position-re o-hidden"> <img src="img/news/5.jpg" alt="">
                             <div class="date">
-                                <a href="post.html"> <span>Dec</span> <i>08</i> </a>
+                                <a href="blog.php"> <span>Dec</span> <i>08</i> </a>
                             </div>
                         </div>
                         <div class="con"> <span class="category">
                                 <a href="news.html">Health</a>
                             </span>
-                            <h5><a href="post.html">Benefits of Swimming for Your Health</a></h5>
+                            <h5><a href="blog.php">Benefits of Swimming for Your Health</a></h5>
                         </div>
                     </div>
 
@@ -475,7 +475,7 @@
                     <div class="reservations mb-30">
                         <div class="icon color-1"><span class="flaticon-call"></span></div>
                         <div class="text">
-                            <p class="color-1">Rezervasyon</p> <a class="color-1" href="tel:855-100-4444">855 100 4444</a>
+                            <p class="color-1">Rezervasyon</p> <a class="color-1" href="tel:855-100-4444">0384 219 4040</a>
                         </div>
                     </div>
                     <p><i class="ti-check"></i><small>Call us, it's toll-free.</small></p>
@@ -485,33 +485,33 @@
                     <div class="booking-box">
                         <div class="head-box">
                             <h6>Odalar & Suitler</h6>
-                            <h4>Hotel Booking Form</h4>
+                            <h4>Otel Rezervasyon Formu</h4>
                         </div>
                         <div class="booking-inner clearfix">
                             <form action="rooms2.html" class="form1 clearfix">
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="input1_wrapper">
-                                            <label>Check in</label>
+                                            <label>Giriş</label>
                                             <div class="input1_inner">
-                                                <input type="text" class="form-control input datepicker" placeholder="Check in">
+                                                <input type="text" class="form-control input datepicker" placeholder="Giriş">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="input1_wrapper">
-                                            <label>Check out</label>
+                                            <label>Çıkış</label>
                                             <div class="input1_inner">
-                                                <input type="text" class="form-control input datepicker" placeholder="Check out">
+                                                <input type="text" class="form-control input datepicker" placeholder="Çıkış">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="select1_wrapper">
-                                            <label>Adults</label>
+                                            <label>Kişi</label>
                                             <div class="select1_inner">
                                                 <select class="select2 select" style="width: 100%">
-                                                    <option value="0">Adults</option>
+                                                    <option value="0">Kişi</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
@@ -522,10 +522,10 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="select1_wrapper">
-                                            <label>Children</label>
+                                            <label>Çocuk</label>
                                             <div class="select1_inner">
                                                 <select class="select2 select" style="width: 100%">
-                                                    <option value="0">Children</option>
+                                                    <option value="0">Çocuk</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
@@ -535,7 +535,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-12">
-                                        <button type="submit" class="btn-form1-submit mt-15">Check Availability</button>
+                                        <button type="submit" class="btn-form1-submit mt-15">Rezervasyon</button>
                                     </div>
                                 </div>
                             </form>
