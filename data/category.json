@@ -1,0 +1,20 @@
+[
+    {
+        "id": "superior",
+        "name": "Superior Room",
+        "url": "url",
+        "image": "image"
+    },
+    {
+        "id": "deluxe",
+        "name": "Deluxe Room",
+        "url": "url",
+        "image": "image"
+    },
+    {
+        "id": "suit",
+        "name": "Suit Room",
+        "url": "url",
+        "image": "image"
+    }
+]

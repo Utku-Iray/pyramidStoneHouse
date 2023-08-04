@@ -46,7 +46,7 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
     <!-- slider reservation -->
     <div class="reservation">
@@ -166,13 +166,13 @@
                 <div class="section-title">Odalar & Suitler</div>
             </div>
         </div>
-        <div class="row">
-         
+        <div class="row" style="justify-content: center;">
+
             <div class="col-md-6">
                 <div class="item">
                     <div class="position-re o-hidden"> <img src="img/rooms/4.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
                     <div class="con">
-                        <h5><a href="room-details.php">Moon Room</a></h5>
+                        <h5><a href="room-details.php">Standart Room</a></h5>
                         <div class="line"></div>
                         <div class="row facilities">
                             <div class="col col-md-7">
@@ -194,7 +194,29 @@
                 <div class="item">
                     <div class="position-re o-hidden"> <img src="img/rooms/7.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
                     <div class="con">
-                        <h5><a href="room-details.php">Sun Room</a></h5>
+                        <h5><a href="room-details.php">Deluxe Room</a></h5>
+                        <div class="line"></div>
+                        <div class="row facilities">
+                            <div class="col col-md-7">
+                                <ul>
+                                    <li><i class="flaticon-bed"></i></li>
+                                    <li><i class="flaticon-bath"></i></li>
+                                    <li><i class="flaticon-breakfast"></i></li>
+                                    <li><i class="flaticon-towel"></i></li>
+                                </ul>
+                            </div>
+                            <div class="col col-md-5 text-end">
+                                <div class="permalink"><a href="room-details.php">Details <i class="ti-arrow-right"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="item">
+                    <div class="position-re o-hidden"> <img src="img/rooms/7.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
+                    <div class="con">
+                        <h5><a href="room-details.php">Suit Room</a></h5>
                         <div class="line"></div>
                         <div class="row facilities">
                             <div class="col col-md-7">
@@ -222,8 +244,10 @@
             <div class="col-md-4">
                 <div class="section-subtitle"><span>Popüler</span></div>
                 <div class="section-title"><span>AKTİVİTELER</span></div>
-                <p class="color-2">The best prices for your relaxing vacation. The utanislen quam nestibulum ac quame odion elementum sceisue the aucan.</p>
-                <p class="color-2">Orci varius natoque penatibus et magnis disney parturient monte nascete ridiculus mus nellen etesque habitant morbine.</p>
+                <p class="color-2">Pyramid Stone House ile sessizliğin, huzurun ve manzaranın keyfini çıkardınız ama daha fazlası için Kapadokya’nın derinliklerini keşfetmeye ne dersiniz?
+                    <br><br>
+                    Siz değerleri misafirlerimiz için özel hazırlanan etkinlikler ve fırsatlarla doğa mucizesi peri bacalarının arasında, masallara konu olan balonların içinde gökyüzünden mükemmel manzaralara şahitlik etmeye hazır mısınız?
+                </p>
                 <div class="reservations mb-30">
                     <div class="icon"><span class="flaticon-call"></span></div>
                     <div class="text">
@@ -267,18 +291,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="pricing-card">
-                        <img src="img/pricing/4.jpg" alt="">
-                        <div class="desc">
-                            <div class="name">Safe & Secure</div>
-                            <!-- <div class="amount">$15<span>/ daily</span></div> -->
-                            <ul class="list-unstyled list">
-                                <li><i class="ti-check"></i> Hotel ut nisan the duru</li>
-                                <li><i class="ti-check"></i> Orci miss natoque vasa ince</li>
-                                <li><i class="ti-close unavailable"></i>Clean sorem ipsum morbin</li>
-                            </ul>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -322,7 +335,7 @@
                 <div class="single-facility animate-box" data-animate-effect="fadeInUp">
                     <span class="flaticon-world"></span>
                     <h5>Ulaşım</h5>
-                    <p>We’ll pick up from airport while you comfy on your ride, mus nellentesque habitant.</p>
+                    <p>Hava yolu ile gerçekleştireceğiniz seyahatlerde, talebinize göre otelimize transferinizi gerçekleştiriyoruz.</p>
                     <div class="facility-shape"> <span class="flaticon-world"></span> </div>
                 </div>
             </div>
@@ -330,7 +343,7 @@
                 <div class="single-facility animate-box" data-animate-effect="fadeInUp">
                     <span class="flaticon-car"></span>
                     <h5>Otopark</h5>
-                    <p>Fusce tincidunt nis ace park norttito sit amet space, mus nellentesque habitant.</p>
+                    <p>Seyahatiniz süresince, otelimiz dahilinde araçlarınız için güvenli otopark hizmeti sunuyoruz.</p>
                     <div class="facility-shape"> <span class="flaticon-car"></span> </div>
                 </div>
             </div>
@@ -338,15 +351,15 @@
                 <div class="single-facility animate-box" data-animate-effect="fadeInUp">
                     <span class="flaticon-bed"></span>
                     <h5>Oda Servisleri</h5>
-                    <p>Room tincidunt nis ace park norttito sit amet space, mus nellentesque habitant.</p>
+                    <p>Kapadokya’nın eşsiz atmosferinde yaşanacak günlerinizi sizler için keyifli hale getirerek tatilinizi unutulmaz kılıyoruz.</p>
                     <div class="facility-shape"> <span class="flaticon-bed"></span> </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="single-facility animate-box" data-animate-effect="fadeInUp">
-                    <span class="flaticon-swimming"></span>
-                    <h5>Yüzme Havuzu</h5>
-                    <p>Swimming pool tincidunt nise ace park norttito sit space, mus nellentesque habitant.</p>
+                    <span class="flaticon-serving-dish"></span>
+                    <h5>Restaurant</h5>
+                    <p>Kadim Peri Bacaları Arasında Büyülü Lezzet Deneyimi!</p>
                     <div class="facility-shape"> <span class="flaticon-swimming"></span> </div>
                 </div>
             </div>
@@ -354,7 +367,7 @@
                 <div class="single-facility animate-box" data-animate-effect="fadeInUp">
                     <span class="flaticon-wifi"></span>
                     <h5>İnternet & Wifi</h5>
-                    <p>Wifi tincidunt nis ace park norttito sit amet space, mus nellentesque habitant.</p>
+                    <p>Otelimizde 7/24 faydalanabileceğiniz İnternet & Wifi bağlantısı bulunmaktadır</p>
                     <div class="facility-shape"> <span class="flaticon-wifi"></span> </div>
                 </div>
             </div>
@@ -362,7 +375,7 @@
                 <div class="single-facility animate-box" data-animate-effect="fadeInUp">
                     <span class="flaticon-breakfast"></span>
                     <h5>Kahvaltı</h5>
-                    <p>Eat tincidunt nisa ace park norttito sit amet space, mus nellentesque habitant</p>
+                    <p>Şeflerimiz tarafından özenle hazırlanan kahvaltımız sizi yeni bir güne keyifle başlatıyor.</p>
                     <div class="facility-shape"> <span class="flaticon-breakfast"></span> </div>
                 </div>
             </div>

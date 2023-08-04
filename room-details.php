@@ -1,12 +1,25 @@
-<?php include 'php/head.php' ?>
-<?php include 'php/header.php' ?>
+<?php
+include 'php/head.php';
+include 'php/header.php';
+$roomJSON = json_decode(file_get_contents('data/room.json'));
+
+foreach ($roomJSON as $singleRoom) {
+    if ($singleRoom->url == $_GET["url"]) {
+        $roomDetails = $singleRoom;
+        break;
+    }
+}
+
+?>
 <!-- Room Page Slider -->
 <header class="header slider">
     <div class="owl-carousel owl-theme">
         <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
-        <div class="text-center item bg-img" data-overlay-dark="3" data-background="img/slider/3.jpg"></div>
-        <div class="text-center item bg-img" data-overlay-dark="3" data-background="img/slider/2.jpg"></div>
-        <div class="text-center item bg-img" data-overlay-dark="3" data-background="img/slider/5.jpg"></div>
+        <?php foreach ($roomDetails->photo_gallery as $photo) { ?>
+            <div class="text-center item bg-img" data-overlay-dark="3" data-background="<?= $photo ?>"></div>
+        <?php } ?>
+
+
     </div>
     <!-- arrow down -->
     <div class="arrow bounce text-center">
@@ -27,7 +40,7 @@
                     <i class="star-rating"></i>
                 </span>
                 <div class="section-subtitle">Luxury Hotel</div>
-                <div class="section-title">Moon Room</div>
+                <div class="section-title"><?= $roomDetails->name ?></div>
             </div>
             <div class="col-md-8">
                 <p class="mb-30">Hotel non lorem ac erat suscipit bibendum nulla facilisi. Sedeuter nunc volutpat miss sapien vel conseyen turpeutionyer masin libero sevenion vusetion viventa augue sit amet hendrerit vestibulum. Duisteyerion venenatis lacus gravida eros ut turpis interdum ornare.</p>
@@ -88,26 +101,28 @@
                 <div class="inBox box-1 mb-3">
                     <div class="title d-flex justify-content-between">
                         <div class="butn-dark">
-                        <a href="#" class="text-center mx-auto butn-dark"><span class="flaticon-call"></span> Hemen Ara</a>
-                        <a href="#" class="text-center mx-auto butn-dark"><span class="ti-bell">REZERVASYON</a>
+                            <a href="#" class="text-center mx-auto butn-dark"><span class="flaticon-call"></span> Hemen Ara</a>
+                            <a href="#" class="text-center mx-auto butn-dark"><span class="ti-bell">REZERVASYON</a>
                         </div>
                     </div>
                 </div>
                 <div class="oda-detay">
                     <h6>Amenities</h6>
                     <ul class="list-unstyled page-list mb-30 ">
-                        <li>
-                            <div class="page-list-icon"> <span class="flaticon-group"></span> </div>
-                            <div class="page-list-text">
-                                <p>1-2 Persons</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="page-list-icon"> <span class="flaticon-wifi"></span> </div>
-                            <div class="page-list-text">
-                                <p>Free Wifi</p>
-                            </div>
-                        </li>
+
+                        <?php
+
+                        foreach ($roomDetails->features as $singleFeatures) { ?>
+                            <li>
+                                <div class="page-list-icon"> <span class="flaticon-<?= $singleFeatures->icon ?>"></span> </div>
+                                <div class="page-list-text">
+                                    <p><?= $singleFeatures->featureName ?></p>
+                                </div>
+                            </li>
+
+                        <?php
+                        }
+                        ?>
                         <li>
                             <div class="page-list-icon"> <span class="flaticon-clock-1"></span> </div>
                             <div class="page-list-text">

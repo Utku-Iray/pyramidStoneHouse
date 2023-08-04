@@ -3624,7 +3624,7 @@ hr {
     color: #aa8453;
     margin-bottom: 10px;
     text-align: left;
-    border-bottom: 1px dashed #aa8453;
+    /* border-bottom: 1px dashed #aa8453; */
     line-height: 2em;
 }
 

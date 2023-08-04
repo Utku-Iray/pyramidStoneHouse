@@ -47,14 +47,8 @@
                         </ul>     
                     </li> -->
                     <li class="nav-item"><a class="nav-link" href="about-us.php">Hakkımızda</a></li>
-                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">ODALAR & SUİTLER <i class="ti-angle-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="room-details.php" class="dropdown-item"><span>Moon Room</span></a></li>
-                            <!-- <li><a href="rooms2.html" class="dropdown-item"><span>Rooms 2</span></a></li>
-                            <li><a href="rooms3.html" class="dropdown-item"><span>Rooms 3</span></a></li>
-                            <li><a href="room-details.php" class="dropdown-item"><span>Room Details</span></a></li> -->
-                        </ul>
-                    </li>
+                    <li class="nav-item"><a class="nav-link" href="rooms-and-suits.php">Odalar & Suitler</a></li>
+
                     <!-- <li class="nav-item"><a class="nav-link" href="restaurant.html">Restaurant</a></li>
                     <li class="nav-item"><a class="nav-link" href="spa-wellness.html">Spa</a></li> -->
                     <!-- <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">GALERİ <i class="ti-angle-down"></i></a>

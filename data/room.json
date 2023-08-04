@@ -1,0 +1,76 @@
+[
+    {
+        "name": "Sıcak Mağara Oda",
+        "category_id": "superior",
+        "url": "sicak-magara-oda",
+        "photo_gallery": [
+            "img/slider/3.jpg",
+            "img/slider/2.jpg"
+        ],
+        "content": "32131231dasdasdasdasdasdsadsa",
+        "features": [
+            {
+                "featureName": "ABCDS",
+                "icon": "group"
+            },
+            {
+                "featureName": "wifiiiiiiiiiiii",
+                "icon": "wifi"
+            }
+        ]
+    },
+    {
+        "name": "Sıcak Mağara Oda2",
+        "category_id": "superior",
+        "url": "sicak-magara-oda2",
+        "photo_gallery": [
+            "img/slider/3.jpg",
+            "img/slider/2.jpg"
+        ],
+        "content": "32131231dasdasdasdasdasdsadsa",
+        "features": [
+            {
+                "featureName": "ABCDS",
+                "icon": "group"
+            },
+            {
+                "featureName": "wifiiiiiiiiiiii",
+                "icon": "wifi"
+            }
+        ]
+    },
+    {
+        "name": "Soğuk Mağara Oda",
+        "category_id": "deluxe",
+        "url": "soguk-magara-oda",
+        "photo_gallery": "",
+        "content": "abasdadsa",
+        "features": [
+            {
+                "featureName": "ABCD12312321S",
+                "icon": "group"
+            },
+            {
+                "featureName": "wifiiii123123i123iiiiiii",
+                "icon": "wifi"
+            }
+        ]
+    },
+    {
+        "name": "Ilık Mağara Oda",
+        "category_id": "suit",
+        "url": "ilik-magara-oda",
+        "photo_gallery": "",
+        "content": "",
+        "features": [
+            {
+                "featureName": "ABCDS",
+                "icon": "group"
+            },
+            {
+                "featureName": "wifiiiiiiiiiiii",
+                "icon": "wifi"
+            }
+        ]
+    }
+]
