@@ -52,7 +52,7 @@ $index2 = 0;
                                         if ($singleRoom->category_id == $singleCategory->id) { ?>
                                             <div class="col-md-6">
                                                 <div class="item">
-                                                    <div class="position-re o-hidden"> <img src="img/rooms/7.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
+                                                    <div class="position-re o-hidden"> <img src="<?= $singleRoom->photo ?>" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
                                                     <div class="con">
                                                         <h5><a href="room-details.php?url=<?= $singleRoom->url ?>"><?= $singleRoom->name ?></a></h5>
                                                         <div class="line"></div>
@@ -66,7 +66,7 @@ $index2 = 0;
                                                                 </ul>
                                                             </div>
                                                             <div class="col col-md-5 text-end">
-                                                                <div class="permalink"><a href="room-details.php">Details <i class="ti-arrow-right"></i></a></div>
+                                                                <div class="permalink"><a href="room-details.php">Detaylar <i class="ti-arrow-right"></i></a></div>
                                                             </div>
                                                         </div>
                                                     </div>

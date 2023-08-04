@@ -2,6 +2,7 @@
 include 'php/head.php';
 include 'php/header.php';
 $roomJSON = json_decode(file_get_contents('data/room.json'));
+$activitiesJSON = json_decode(file_get_contents('data/activities.json'));
 
 foreach ($roomJSON as $singleRoom) {
     if ($singleRoom->url == $_GET["url"]) {
@@ -43,59 +44,9 @@ foreach ($roomJSON as $singleRoom) {
                 <div class="section-title"><?= $roomDetails->name ?></div>
             </div>
             <div class="col-md-8">
-                <p class="mb-30">Hotel non lorem ac erat suscipit bibendum nulla facilisi. Sedeuter nunc volutpat miss sapien vel conseyen turpeutionyer masin libero sevenion vusetion viventa augue sit amet hendrerit vestibulum. Duisteyerion venenatis lacus gravida eros ut turpis interdum ornare.</p>
-                <p class="mb-30">Interdum et malesu they adamale fames ac anteipsu pimsine faucibus curabitur arcu site feugiat in tortor in, volutpat sollicitudin libero. Hotel non lorem acer suscipit bibendum vulla facilisi nedeuter nunc volutpa mollis sapien velet conseyer turpeutionyer masin libero sempe mollis.</p>
-                <div class="row">
-                    <div class="col-md-6">
-                        <h6>Check-in</h6>
-                        <ul class="list-unstyled page-list mb-30">
-                            <li>
-                                <div class="page-list-icon"> <span class="ti-check"></span> </div>
-                                <div class="page-list-text">
-                                    <p>Check-in from 9:00 AM - anytime</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="page-list-icon"> <span class="ti-check"></span> </div>
-                                <div class="page-list-text">
-                                    <p>Early check-in subject to availability</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <h6>Check-out</h6>
-                        <ul class="list-unstyled page-list mb-30">
-                            <li>
-                                <div class="page-list-icon"> <span class="ti-check"></span> </div>
-                                <div class="page-list-text">
-                                    <p>Check-out before noon</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="page-list-icon"> <span class="ti-check"></span> </div>
-                                <div class="page-list-text">
-                                    <p>Express check-out</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-12">
-                        <h6>Special check-in instructions</h6>
-                        <p>Guests will receive an email 5 days before arrival with check-in instructions; front desk staff will greet guests on arrival For more details, please contact the property using the information on the booking confirmation.</p>
-                    </div>
-                    <div class="col-md-12">
-                        <h6>Pets</h6>
-                        <p>Pets not allowed</p>
-                    </div>
-                    <div class="col-md-12">
-                        <h6>Çocuk and extra beds</h6>
-                        <p>Çocuk are welcome Kids stay free! Çocuk stay free when using existing bedding; Çocuk may not be eligible for complimentary breakfast Rollaway/extra beds are available for $ 10 per day.</p>
-                    </div>
-                    <!-- <div class="col-md-12">
-                        <div class="butn-dark mt-15 mb-30"> <a href="rooms2.html"><span>Check Now</span></a> </div>
-                    </div> -->
-                </div>
+                <p class="mb-30"><?= $roomDetails->content ?></p>
+                
+               
             </div>
             <div class="col-md-4  ">
                 <div class="inBox box-1 mb-3">
@@ -123,30 +74,7 @@ foreach ($roomJSON as $singleRoom) {
                         <?php
                         }
                         ?>
-                        <li>
-                            <div class="page-list-icon"> <span class="flaticon-clock-1"></span> </div>
-                            <div class="page-list-text">
-                                <p>200 sqft room</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="page-list-icon"> <span class="flaticon-breakfast"></span> </div>
-                            <div class="page-list-text">
-                                <p>Breakfast</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="page-list-icon"> <span class="flaticon-towel"></span> </div>
-                            <div class="page-list-text">
-                                <p>Towels</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="page-list-icon"> <span class="flaticon-swimming"></span> </div>
-                            <div class="page-list-text">
-                                <p>Swimming Pool</p>
-                            </div>
-                        </li>
+                       
                     </ul>
                 </div>
             </div>
@@ -162,14 +90,15 @@ foreach ($roomJSON as $singleRoom) {
                 <div class="section-title"><span>Odalar</span></div>
             </div>
         </div>
-        <div class="row">
+        <div class="row"> 
             <div class="col-md-12">
                 <div class="owl-carousel owl-theme">
-                    <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/rooms/1.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
+                    <?php foreach ($roomJSON as $room) {?>
+                        # c<div class="item">
+                        <div class="position-re o-hidden"> <img src="<?= $room->photo ?>" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
                         <div class="con">
                             <!-- <h6><a href="room-details.php">150$ / Night</a></h6> -->
-                            <h5><a href="room-details.php">Junior Suite</a> </h5>
+                            <h5><a href="room-details.php?url=<?= $room->url ?>"><?= $room->name ?></a> </h5>
                             <div class="line"></div>
                             <div class="row facilities">
                                 <div class="col col-md-7">
@@ -181,111 +110,14 @@ foreach ($roomJSON as $singleRoom) {
                                     </ul>
                                 </div>
                                 <div class="col col-md-5 text-end">
-                                    <div class="permalink"><a href="room-details.php">Details <i class="ti-arrow-right"></i></a></div>
+                                    <div class="permalink"><a href="room-details.php">Detaylar <i class="ti-arrow-right"></i></a></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/rooms/2.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
-                        <div class="con">
-                            <h5><a href="room-details.php">Family Room</a></h5>
-                            <div class="line"></div>
-                            <div class="row facilities">
-                                <div class="col col-md-7">
-                                    <ul>
-                                        <li><i class="flaticon-bed"></i></li>
-                                        <li><i class="flaticon-bath"></i></li>
-                                        <li><i class="flaticon-breakfast"></i></li>
-                                        <li><i class="flaticon-towel"></i></li>
-                                    </ul>
-                                </div>
-                                <div class="col col-md-5 text-end">
-                                    <div class="permalink"><a href="room-details.php">Details <i class="ti-arrow-right"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/rooms/5.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
-                        <div class="con">
-                            <h5><a href="room-details.php">Double Room</a></h5>
-                            <div class="line"></div>
-                            <div class="row facilities">
-                                <div class="col col-md-7">
-                                    <ul>
-                                        <li><i class="flaticon-bed"></i></li>
-                                        <li><i class="flaticon-bath"></i></li>
-                                        <li><i class="flaticon-breakfast"></i></li>
-                                        <li><i class="flaticon-towel"></i></li>
-                                    </ul>
-                                </div>
-                                <div class="col col-md-5 text-end">
-                                    <div class="permalink"><a href="room-details.php">Details <i class="ti-arrow-right"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/rooms/6.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
-                        <div class="con">
-                            <h5><a href="room-details.php">Deluxe Room</a></h5>
-                            <div class="line"></div>
-                            <div class="row facilities">
-                                <div class="col col-md-7">
-                                    <ul>
-                                        <li><i class="flaticon-bed"></i></li>
-                                        <li><i class="flaticon-bath"></i></li>
-                                        <li><i class="flaticon-breakfast"></i></li>
-                                        <li><i class="flaticon-towel"></i></li>
-                                    </ul>
-                                </div>
-                                <div class="col col-md-5 text-end">
-                                    <div class="permalink"><a href="room-details.php">Details <i class="ti-arrow-right"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/rooms/8.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
-                        <div class="con">
-                            <h5><a href="room-details.php">Superior Room</a></h5>
-                            <div class="line"></div>
-                            <div class="row facilities">
-                                <div class="col col-md-7">
-                                    <ul>
-                                        <li><i class="flaticon-bed"></i></li>
-                                        <li><i class="flaticon-bath"></i></li>
-                                        <li><i class="flaticon-breakfast"></i></li>
-                                        <li><i class="flaticon-towel"></i></li>
-                                    </ul>
-                                </div>
-                                <div class="col col-md-5 text-end">
-                                    <div class="permalink"><a href="room-details.php">Details <i class="ti-arrow-right"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/rooms/5.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
-                        <div class="con">
-                            <h5><a href="room-details.php">Wellness Room</a></h5>
-                            <div class="line"></div>
-                            <div class="row facilities">
-                                <div class="col col-md-7">
-                                    <ul>
-                                        <li><i class="flaticon-bed"></i></li>
-                                        <li><i class="flaticon-bath"></i></li>
-                                        <li><i class="flaticon-breakfast"></i></li>
-                                        <li><i class="flaticon-towel"></i></li>
-                                    </ul>
-                                </div>
-                                <div class="col col-md-5 text-end">
-                                    <div class="permalink"><a href="room-details.php">Details <i class="ti-arrow-right"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php } ?>
+                    
+                    
                 </div>
             </div>
         </div>
@@ -298,8 +130,10 @@ foreach ($roomJSON as $singleRoom) {
             <div class="col-md-4">
                 <div class="section-subtitle"><span>Popüler</span></div>
                 <div class="section-title">Aktiviteler</div>
-                <p>The best prices for your relaxing vacation. The utanislen quam nestibulum ac quame odion elementum sceisue the aucan.</p>
-                <p>Orci varius natoque penatibus et magnis disney parturient monte nascete ridiculus mus nellen etesque habitant morbine.</p>
+                <p>Pyramid Stone House ile sessizliğin, huzurun ve manzaranın keyfini çıkardınız ama daha fazlası için Kapadokya’nın derinliklerini keşfetmeye ne dersiniz?
+                    <br><br>
+                    Siz değerleri misafirlerimiz için özel hazırlanan etkinlikler ve fırsatlarla doğa mucizesi peri bacalarının arasında, masallara konu olan balonların içinde gökyüzünden mükemmel manzaralara şahitlik etmeye hazır mısınız?
+                </p>
                 <div class="reservations mb-30">
                     <div class="icon"><span class="flaticon-call"></span></div>
                     <div class="text">
@@ -308,51 +142,26 @@ foreach ($roomJSON as $singleRoom) {
                 </div>
             </div>
             <div class="col-md-8">
-                <div class="owl-carousel owl-theme">
-                    <div class="pricing-card">
-                        <img src="img/pricing/1.jpg" alt="">
-                        <div class="desc">
-                            <div class="name">Room cleaning</div>
-                            <ul class="list-unstyled list">
-                                <li><i class="ti-check"></i> Hotel ut nisan the duru</li>
-                                <li><i class="ti-check"></i> Orci miss natoque vasa ince</li>
-                                <li><i class="ti-close unavailable"></i>Clean sorem ipsum morbin</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="pricing-card">
-                        <img src="img/pricing/2.jpg" alt="">
-                        <div class="desc">
-                            <div class="name">Drinks included</div>
-                            <ul class="list-unstyled list">
-                                <li><i class="ti-check"></i> Hotel ut nisan the duru</li>
-                                <li><i class="ti-check"></i> Orci miss natoque vasa ince</li>
-                                <li><i class="ti-close unavailable"></i>Clean sorem ipsum morbin</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="pricing-card">
-                        <img src="img/pricing/3.jpg" alt="">
-                        <div class="desc">
-                            <div class="name">Room Breakfast</div>
-                            <ul class="list-unstyled list">
-                                <li><i class="ti-check"></i> Hotel ut nisan the duru</li>
-                                <li><i class="ti-check"></i> Orci miss natoque vasa ince</li>
-                                <li><i class="ti-close unavailable"></i>Clean sorem ipsum morbin</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="pricing-card">
-                        <img src="img/pricing/4.jpg" alt="">
-                        <div class="desc">
-                            <div class="name">Safe & Secure</div>
-                            <ul class="list-unstyled list">
-                                <li><i class="ti-check"></i> Hotel ut nisan the duru</li>
-                                <li><i class="ti-check"></i> Orci miss natoque vasa ince</li>
-                                <li><i class="ti-close unavailable"></i>Clean sorem ipsum morbin</li>
-                            </ul>
-                        </div>
-                    </div>
+            <div class="owl-carousel owl-theme">
+                    <?php foreach ($activitiesJSON as $activity) { ?>
+                        <a href="activities-details.php?url=<?= $activity->url ?>">
+                            <div class="pricing-card">
+
+                                <img src="<?= $activity->photo ?>" alt="">
+                                <div class="desc">
+                                    <div class="name"><?= $activity->name ?></div>
+                                    <!-- <div class="amount">$50<span>/ month</span></div> -->
+                                    <ul class="list-unstyled list">
+                                        <li><i class="ti-check"></i> <?= $activity->description?></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </a>
+                    <?php  } ?>
+
+
+
                 </div>
             </div>
         </div>

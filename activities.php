@@ -1,6 +1,8 @@
-<?php include 'php/head.php' ?>
-<?php include 'php/header.php' ?>
-
+<?php 
+include 'php/head.php' ;
+include 'php/header.php' ;
+$activitiesJSON = json_decode(file_get_contents('data/activities.json'));
+?>
 <!-- Header Banner -->
 <div class="banner-header section-padding valign bg-img bg-fixed" data-overlay-dark="4" data-background="img/slider/5.jpg">
     <div class="container">
@@ -16,42 +18,22 @@
 <section class="news section-padding bg-blck">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 mb-30">
+            <?php foreach ($activitiesJSON as $activities ) {?>
+                <div class="col-md-6 mb-30">
                 <div class="item">
-                    <div class="position-re o-hidden"> <img src="img/aktiviteler/aktivite-balon-dikey.jpg" alt="">
+                    <div class="position-re o-hidden"> <img src="<?= $activities->photo ?>" alt="">
                         
                     </div>
                     <div class="con"> <span class="category">
                             <a href="#0">AKTİVİTELER</a>
                         </span>
-                        <h5><a href="#0">Balon Turları</a></h5>
+                        <h5><a href="activities-details.php?url=<?= $activities->url ?>"><?= $activities->name ?></a></h5>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-30">
-                <div class="item">
-                    <div class="position-re o-hidden"> <img src="img/aktiviteler/aktivite-atv-dikey.jpg" alt="">
-                      
-                    </div>
-                    <div class="con"> <span class="category">
-                            <a href="#0">AKTİVİTELER</a>
-                        </span>
-                        <h5><a href="#0">ATV Turları</a></h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-30">
-                <div class="item">
-                    <div class="position-re o-hidden"> <img src="img/aktiviteler/masaj-aktiviteleri-dikey.jpg" alt="">
-                       
-                    </div>
-                    <div class="con"> <span class="category">
-                            <a href="#0">AKTİVİTELER</a>
-                        </span>
-                        <h5><a href="#0">Özel Masajlar</a></h5>
-                    </div>
-                </div>
-            </div>
+            <?php  } ?>
+            
+          
 
         </div>
 

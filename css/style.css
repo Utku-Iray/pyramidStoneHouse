@@ -981,7 +981,7 @@ blockquote cite:before {
 
 .navbar .navbar-nav .nav-link {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
     color: #fff;
     margin: 1px;
@@ -4881,7 +4881,7 @@ button.mfp-arrow {
 }
 
 .news .item .con {
-    margin: -155px 20px 90px;
+    margin: -130px 20px 90px;
     padding: 20px;
     background-color: #f8f5f0 !important;
     border: 1px solid #f8f5f0;
@@ -5314,7 +5314,7 @@ button.mfp-arrow {
     padding: 13px 20px;
     margin: 0;
     position: relative;
-    font-size: 15px;
+    font-size: 13px;
     letter-spacing: 3px;
 }
 

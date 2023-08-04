@@ -3,18 +3,18 @@
         "id": "superior",
         "name": "Superior Room",
         "url": "url",
-        "image": "image"
+        "image": "img/rooms/standart-1/1.jpg"
     },
     {
         "id": "deluxe",
         "name": "Deluxe Room",
         "url": "url",
-        "image": "image"
+        "image": "img/rooms/deluxe-2/1.jpg"
     },
     {
         "id": "suit",
         "name": "Suit Room",
         "url": "url",
-        "image": "image"
+        "image": "img/rooms/king-suits-2/1.jpg"
     }
 ]

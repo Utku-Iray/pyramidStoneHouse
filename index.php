@@ -1,5 +1,8 @@
-<?php include 'php/head.php' ?>
-<?php include 'php/header.php' ?>
+<?php include 'php/head.php';
+include 'php/header.php';
+$categoryJSON = json_decode(file_get_contents('data/category.json'));
+$activitiesJSON = json_decode(file_get_contents('data/activities.json'));
+?>
 
 <!-- Booking Search -->
 <!-- Slider -->
@@ -167,73 +170,32 @@
             </div>
         </div>
         <div class="row" style="justify-content: center;">
+            <?php foreach ($categoryJSON as $category) { ?>
+                <div class="col-md-6">
+                    <div class="item">
+                        <div class="position-re o-hidden"> <img src="<?= $category->image ?>" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
+                        <div class="con">
+                            <h5><a href="rooms-and-suits.php"><?= $category->name ?></a></h5>
+                            <div class="line"></div>
+                            <div class="row facilities">
+                                <div class="col col-md-7">
+                                    <ul>
+                                        <li><i class="flaticon-bed"></i></li>
+                                        <li><i class="flaticon-bath"></i></li>
+                                        <li><i class="flaticon-breakfast"></i></li>
+                                        <li><i class="flaticon-towel"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="col col-md-5 text-end">
+                                    <div class="permalink"><a href="rooms-and-suits.php">Details <i class="ti-arrow-right"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <?php } ?>
 
-            <div class="col-md-6">
-                <div class="item">
-                    <div class="position-re o-hidden"> <img src="img/rooms/4.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
-                    <div class="con">
-                        <h5><a href="room-details.php">Standart Room</a></h5>
-                        <div class="line"></div>
-                        <div class="row facilities">
-                            <div class="col col-md-7">
-                                <ul>
-                                    <li><i class="flaticon-bed"></i></li>
-                                    <li><i class="flaticon-bath"></i></li>
-                                    <li><i class="flaticon-breakfast"></i></li>
-                                    <li><i class="flaticon-towel"></i></li>
-                                </ul>
-                            </div>
-                            <div class="col col-md-5 text-end">
-                                <div class="permalink"><a href="room-details.php">Details <i class="ti-arrow-right"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="item">
-                    <div class="position-re o-hidden"> <img src="img/rooms/7.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
-                    <div class="con">
-                        <h5><a href="room-details.php">Deluxe Room</a></h5>
-                        <div class="line"></div>
-                        <div class="row facilities">
-                            <div class="col col-md-7">
-                                <ul>
-                                    <li><i class="flaticon-bed"></i></li>
-                                    <li><i class="flaticon-bath"></i></li>
-                                    <li><i class="flaticon-breakfast"></i></li>
-                                    <li><i class="flaticon-towel"></i></li>
-                                </ul>
-                            </div>
-                            <div class="col col-md-5 text-end">
-                                <div class="permalink"><a href="room-details.php">Details <i class="ti-arrow-right"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="item">
-                    <div class="position-re o-hidden"> <img src="img/rooms/7.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
-                    <div class="con">
-                        <h5><a href="room-details.php">Suit Room</a></h5>
-                        <div class="line"></div>
-                        <div class="row facilities">
-                            <div class="col col-md-7">
-                                <ul>
-                                    <li><i class="flaticon-bed"></i></li>
-                                    <li><i class="flaticon-bath"></i></li>
-                                    <li><i class="flaticon-breakfast"></i></li>
-                                    <li><i class="flaticon-towel"></i></li>
-                                </ul>
-                            </div>
-                            <div class="col col-md-5 text-end">
-                                <div class="permalink"><a href="room-details.php">Details <i class="ti-arrow-right"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
 </section>
@@ -251,46 +213,30 @@
                 <div class="reservations mb-30">
                     <div class="icon"><span class="flaticon-call"></span></div>
                     <div class="text">
-                        <p class="color-2">For information</p> <a href="tel:855-100-4444">0384 219 4040</a>
+                        <p class="color-2">İletişim</p> <a href="tel:855-100-4444">0384 219 4040</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-8">
                 <div class="owl-carousel owl-theme">
-                    <div class="pricing-card">
-                        <img src="img/aktiviteler/aktivite-balon.jpg" alt="">
-                        <div class="desc">
-                            <div class="name">Balon Turları</div>
-                            <!-- <div class="amount">$50<span>/ month</span></div> -->
-                            <ul class="list-unstyled list">
-                                <li><i class="ti-check"></i> Hotel ut nisan the duru</li>
-                                <li><i class="ti-check"></i> Orci miss natoque vasa ince</li>
-                                <li><i class="ti-close unavailable"></i>Clean sorem ipsum morbin</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="pricing-card">
-                        <img src="img/aktiviteler/aktivite-atv.jpg" alt="">
-                        <div class="desc">
-                            <div class="name">Atv Turları</div>
-                            <ul class="list-unstyled list">
-                                <li><i class="ti-check"></i> Hotel ut nisan the duru</li>
-                                <li><i class="ti-check"></i> Orci miss natoque vasa ince</li>
-                                <li><i class="ti-close unavailable"></i>Clean sorem ipsum morbin</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="pricing-card">
-                        <img src="img/aktiviteler/masaj-aktiviteleri.jpg" alt="">
-                        <div class="desc">
-                            <div class="name">Özel Masajlar</div>
-                            <ul class="list-unstyled list">
-                                <li><i class="ti-check"></i> Hotel ut nisan the duru</li>
-                                <li><i class="ti-check"></i> Orci miss natoque vasa ince</li>
-                                <li><i class="ti-close unavailable"></i>Clean sorem ipsum morbin</li>
-                            </ul>
-                        </div>
-                    </div>
+                    <?php foreach ($activitiesJSON as $activity) { ?>
+                        <a href="activities-details.php?url=<?= $activity->url ?>">
+                            <div class="pricing-card">
+
+                                <img src="<?= $activity->photo ?>" alt="">
+                                <div class="desc">
+                                    <div class="name"><?= $activity->name ?></div>
+                                    <!-- <div class="amount">$50<span>/ month</span></div> -->
+                                    <ul class="list-unstyled list">
+                                        <li><i class="ti-check"></i> <?= $activity->description?></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </a>
+                    <?php  } ?>
+
+
 
                 </div>
             </div>
