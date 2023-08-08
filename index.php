@@ -2,6 +2,8 @@
 include 'php/header.php';
 $categoryJSON = json_decode(file_get_contents('data/category.json'));
 $activitiesJSON = json_decode(file_get_contents('data/activities.json'));
+$blogJSON = json_decode(file_get_contents('data/blog.json'));
+
 ?>
 
 <!-- Booking Search -->
@@ -244,7 +246,7 @@ $activitiesJSON = json_decode(file_get_contents('data/activities.json'));
     </div>
 </section>
 <!-- Promo Video -->
-<section class="video-wrapper video section-padding bg-img bg-fixed" data-overlay-dark="3" data-background="img/slider/2.jpg">
+<!-- <section class="video-wrapper video section-padding bg-img bg-fixed" data-overlay-dark="3" data-background="img/slider/2.jpg">
     <div class="container">
         <div class="row">
             <div class="col-md-8 offset-md-2 text-center">
@@ -266,7 +268,7 @@ $activitiesJSON = json_decode(file_get_contents('data/activities.json'));
 
         </div>
     </div>
-</section>
+</section> -->
 <!-- Facilties -->
 <section class="facilties section-padding">
     <div class="container">
@@ -341,80 +343,20 @@ $activitiesJSON = json_decode(file_get_contents('data/activities.json'));
         <div class="row">
             <div class="col-md-12">
                 <div class="owl-carousel owl-theme">
-                    <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/news/1.jpg" alt="">
-                            <div class="date">
-                                <a href="blog.php"> <span>Dec</span> <i>02</i> </a>
-                            </div>
-                        </div>
-                        <div class="con"> <span class="category">
-                                <a href="news.html">Restaurant</a>
-                            </span>
-                            <h5><a href="blog.php">Historic restaurant renovated</a></h5>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/news/2.jpg" alt="">
-                            <div class="date">
-                                <a href="blog.php"> <span>Dec</span> <i>04</i> </a>
-                            </div>
-                        </div>
-                        <div class="con"> <span class="category">
-                                <a href="news.html">Spa</a>
-                            </span>
-                            <h5><a href="blog.php">Benefits of Spa Treatments</a></h5>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/news/3.jpg" alt="">
-                            <div class="date">
-                                <a href="blog.php"> <span>Dec</span> <i>06</i> </a>
-                            </div>
-                        </div>
-                        <div class="con"> <span class="category">
-                                <a href="news.html">Bathrooms</a>
-                            </span>
-                            <h5><a href="blog.php">Hotel Bathroom Collections</a></h5>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/news/4.jpg" alt="">
-                            <div class="date">
-                                <a href="blog.php"> <span>Dec</span> <i>08</i> </a>
-                            </div>
-                        </div>
-                        <div class="con">
-                            <span class="category">
-                                <a href="news.html">Health</a>
-                            </span>
-                            <h5><a href="blog.php">Weight Loss with Fitness Health Club</a></h5>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/news/6.jpg" alt="">
-                            <div class="date">
-                                <a href="blog.php"> <span>Dec</span> <i>08</i> </a>
-                            </div>
-                        </div>
-                        <div class="con"> <span class="category">
-                                <a href="news.html">Design</a>
-                            </span>
-                            <h5><a href="blog.php">Retro Lighting Design in The Hotels</a></h5>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/news/5.jpg" alt="">
-                            <div class="date">
-                                <a href="blog.php"> <span>Dec</span> <i>08</i> </a>
-                            </div>
-                        </div>
-                        <div class="con"> <span class="category">
-                                <a href="news.html">Health</a>
-                            </span>
-                            <h5><a href="blog.php">Benefits of Swimming for Your Health</a></h5>
-                        </div>
-                    </div>
+                    <?php foreach ($blogJSON as $blog ) {?>
+                       <div class="item">
+                       <div class="position-re o-hidden"> <img src="<?= $blog->blog_first_image ?>" alt="">
+                           
+                       </div>
+                       <div class="con"> <span class="category">
+                               <a href="#0">Pyramid Stone House</a>
+                           </span>
+                           <h5><a href="blog-details.php?url=<?= $blog->blog_url ?>"><?= $blog->blog_name ?></a></h5>
+                       </div>
+                   </div>
+                   <?php } ?>
+                   
+                    
 
 
                 </div>

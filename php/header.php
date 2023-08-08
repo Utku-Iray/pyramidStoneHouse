@@ -25,7 +25,7 @@
             <!-- Menu -->
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="index.php">Anasayfa</a></li>
+                <!-- <li class="nav-item"><a class="nav-link" href="index.php">Anasayfa</a></li> -->
 
                     <!-- <li class="nav-item dropdown"> <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Anasayfa <i class="ti-angle-down"></i></a>
                         <ul class="dropdown-menu">
@@ -46,7 +46,12 @@
                             <li><a href="index15.html" class="dropdown-item"><span>Grid Background 2</span></a></li>
                         </ul>     
                     </li> -->
-                    <li class="nav-item"><a class="nav-link" href="about-us.php">Hakkımızda</a></li>
+                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Pyramid Stone<i class="ti-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about-us.php" class="dropdown-item"><span>Hakkımızda</span></a></li>
+                            
+                        </ul>
+                    </li>
                     <li class="nav-item"><a class="nav-link" href="rooms-and-suits.php">Odalar & Suitler</a></li>
 
                     <!-- <li class="nav-item"><a class="nav-link" href="restaurant.html">Restaurant</a></li>
@@ -68,7 +73,7 @@
                             </li>
                         </ul>
                     </li> -->
-                    <li class="nav-item"><a class="nav-link" href="gallery.php">GALERİ</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="gallery.php">GALERİ</a></li> -->
                     <li class="nav-item"><a class="nav-link" href="activities.php">AKTİVİTELER</a></li>
 
                     <!-- <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">AKTİVİTELER<i class="ti-angle-down"></i></a>

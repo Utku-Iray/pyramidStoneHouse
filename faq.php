@@ -1,40 +1,41 @@
-<?php
- include 'php/head.php' ;
- include 'php/header.php'; 
- $blogJSON = json_decode(file_get_contents('data/blog.json'));
+<?php include 'php/head.php';
+ include 'php/header.php';
+$faqJSON = json_decode(file_get_contents('data/sss.json'));
+ 
  ?>
+
     <!-- Header Banner -->
     <div class="banner-header section-padding valign bg-img bg-fixed" data-overlay-dark="4" data-background="img/slider/5.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-left caption mt-90">
-                    <h5>Hotel Blog</h5>
-                    <h1>Duyurular</h1>
+                    <h5>S.S.S</h5>
+                    <h1>Sıkça Sorulan Sorular?</h1>
                 </div>
             </div>
         </div>
     </div>
-    <!-- News  -->
-    <section class="news section-padding ">
+    <!-- Faqs -->
+    <section class="section-padding bg-cream">
         <div class="container">
             <div class="row">
-                <?php foreach ($blogJSON as $blog) {?>
-                    <div class="col-md-4 mb-30">
-                    <div class="item">
-                        <div class="position-re o-hidden"> <img src="<?= $blog->blog_first_image ?>" alt="">
-                            
-                        </div>
-                        <div class="con"> <span class="category">
-                                    <a href="blog-details.php?url=<?= $blog->blog_url ?>"><?= $blog->blog_description ?></a>
-                                </span>
-                            <h5><a href="blog-details.php?url=<?= $blog->blog_url ?>"><?= $blog->blog_name ?></a></h5>
-                        </div>
-                    </div>
+                <?php foreach ($faqJSON as $sss) { ?>
+                    <div class="col-md-12">
+                    <ul class="accordion-box clearfix">
+                        <li class="accordion block">
+                            <div class="acc-btn"><?= $sss->sss?></div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text"><?= $sss-> sss_content ?></div>
+                                </div>
+                            </div>
+                        </li>
+                       
+                    </ul>
                 </div>
                 <?php } ?>
-               
+                
             </div>
-            
         </div>
     </section>
     <!-- Rezervasyon & Booking Form -->
@@ -149,6 +150,5 @@
             </div>
         </div>
     </section>
-    <?php
- include 'php/footer.php' ;
- ?>
+    <!-- Footer -->
+    <?php include 'php/footer.php' ?>
