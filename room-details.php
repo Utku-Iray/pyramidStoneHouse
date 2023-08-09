@@ -45,8 +45,8 @@ foreach ($roomJSON as $singleRoom) {
             </div>
             <div class="col-md-8">
                 <p class="mb-30"><?= $roomDetails->content ?></p>
-                
-               
+
+
             </div>
             <div class="col-md-4  ">
                 <div class="inBox box-1 mb-3">
@@ -58,12 +58,12 @@ foreach ($roomJSON as $singleRoom) {
                     </div>
                 </div>
                 <div class="oda-detay">
-                    <h6>Amenities</h6>
+                    <h6>Özellikler</h6>
                     <ul class="list-unstyled page-list mb-30 ">
 
                         <?php
 
-                        foreach ($roomDetails->features as $singleFeatures) { ?>
+                        foreach ($roomDetails->ana_features as $singleFeatures) { ?>
                             <li>
                                 <div class="page-list-icon"> <span class="flaticon-<?= $singleFeatures->icon ?>"></span> </div>
                                 <div class="page-list-text">
@@ -74,8 +74,30 @@ foreach ($roomJSON as $singleRoom) {
                         <?php
                         }
                         ?>
-                       
+
                     </ul>
+                    
+                </div>
+                <div class="oda-detay" style="margin-top: 10px;">
+                    <h6>Özellikler</h6>
+                    <ul class="list-unstyled page-list mb-30 ">
+
+                        <?php
+
+                        foreach ($roomDetails->sub_features as $singleFeatures) { ?>
+                            <li>
+                                <div class="page-list-icon"> <span class="flaticon-<?= $singleFeatures->icon ?>"></span> </div>
+                                <div class="page-list-text">
+                                    <p><?= $singleFeatures->featureName ?></p>
+                                </div>
+                            </li>
+
+                        <?php
+                        }
+                        ?>
+
+                    </ul>
+                    
                 </div>
             </div>
         </div>
@@ -90,34 +112,34 @@ foreach ($roomJSON as $singleRoom) {
                 <div class="section-title"><span>Odalar</span></div>
             </div>
         </div>
-        <div class="row"> 
+        <div class="row">
             <div class="col-md-12">
                 <div class="owl-carousel owl-theme">
-                    <?php foreach ($roomJSON as $room) {?>
+                    <?php foreach ($roomJSON as $room) { ?>
                         # c<div class="item">
-                        <div class="position-re o-hidden"> <img src="<?= $room->photo ?>" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
-                        <div class="con">
-                            <!-- <h6><a href="room-details.php">150$ / Night</a></h6> -->
-                            <h5><a href="room-details.php?url=<?= $room->url ?>"><?= $room->name ?></a> </h5>
-                            <div class="line"></div>
-                            <div class="row facilities">
-                                <div class="col col-md-7">
-                                    <ul>
-                                        <li><i class="flaticon-bed"></i></li>
-                                        <li><i class="flaticon-bath"></i></li>
-                                        <li><i class="flaticon-breakfast"></i></li>
-                                        <li><i class="flaticon-towel"></i></li>
-                                    </ul>
-                                </div>
-                                <div class="col col-md-5 text-end">
-                                    <div class="permalink"><a href="room-details.php">Detaylar <i class="ti-arrow-right"></i></a></div>
+                            <div class="position-re o-hidden"> <img src="<?= $room->photo ?>" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
+                            <div class="con">
+                                <!-- <h6><a href="room-details.php">150$ / Night</a></h6> -->
+                                <h5><a href="room-details.php?url=<?= $room->url ?>"><?= $room->name ?></a> </h5>
+                                <div class="line"></div>
+                                <div class="row facilities">
+                                    <div class="col col-md-7">
+                                        <ul>
+                                            <li><i class="flaticon-bed"></i></li>
+                                            <li><i class="flaticon-bath"></i></li>
+                                            <li><i class="flaticon-breakfast"></i></li>
+                                            <li><i class="flaticon-towel"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col col-md-5 text-end">
+                                        <div class="permalink"><a href="room-details.php">Detaylar <i class="ti-arrow-right"></i></a></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                     <?php } ?>
-                    
-                    
+
+
                 </div>
             </div>
         </div>
@@ -142,7 +164,7 @@ foreach ($roomJSON as $singleRoom) {
                 </div>
             </div>
             <div class="col-md-8">
-            <div class="owl-carousel owl-theme">
+                <div class="owl-carousel owl-theme">
                     <?php foreach ($activitiesJSON as $activity) { ?>
                         <a href="activities-details.php?url=<?= $activity->url ?>">
                             <div class="pricing-card">
@@ -152,7 +174,7 @@ foreach ($roomJSON as $singleRoom) {
                                     <div class="name"><?= $activity->name ?></div>
                                     <!-- <div class="amount">$50<span>/ month</span></div> -->
                                     <ul class="list-unstyled list">
-                                        <li><i class="ti-check"></i> <?= $activity->description?></li>
+                                        <li><i class="ti-check"></i> <?= $activity->description ?></li>
                                     </ul>
                                 </div>
 
@@ -175,14 +197,14 @@ foreach ($roomJSON as $singleRoom) {
                 <!-- Rezervasyon -->
                 <div class="col-md-5 mb-30 mt-30">
                     <p><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></p>
-                    <h5>Each of our guest rooms feature a private bath, wi-fi, cable television and include full breakfast.</h5>
+                    <h5>Masalların, gerçeküstü öykülerin, kulaktan kulağa yayılan tüm o büyülü anlatılara konu olmuş bir kentin tam ortasında, sevgiye, mutluluğa, güzel anılar biriktirmeye inanan herkes evinde hissetsin diye kesişti yollarımız.</h5>
                     <div class="reservations mb-30">
                         <div class="icon color-1"><span class="flaticon-call"></span></div>
                         <div class="text">
                             <p class="color-1">Rezervasyon</p> <a class="color-1" href="tel:855-100-4444">0384 219 4040</a>
                         </div>
                     </div>
-                    <p><i class="ti-check"></i><small>Call us, it's toll-free.</small></p>
+                    <p><i class="ti-check"></i><small> Ücretsiz şekilde bizi arayabilirsiniz</small></p>
                 </div>
                 <!-- Booking From -->
                 <div class="col-md-5 offset-md-2">
@@ -251,7 +273,7 @@ foreach ($roomJSON as $singleRoom) {
     </div>
 </section>
 <!-- Clients -->
-<section class="clients">
+<!-- <section class="clients">
     <div class="container">
         <div class="row">
             <div class="col-md-7">
@@ -278,6 +300,6 @@ foreach ($roomJSON as $singleRoom) {
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- Footer -->
 <?php include 'php/footer.php' ?>

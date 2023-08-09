@@ -4,18 +4,22 @@
     "sss_content": "Pyramıd Stone House engelli dostu bir oteldir."
 }, {
     "id": "2",
-    "sss": "Oteliniz engelli dostu, erişilebilir bir otel midir?",
-    "sss_content": "Pyramıd Stone House engelli dostu bir oteldir."
+    "sss": "Tüm odalarınızda klima var mı?",
+    "sss_content": "Tüm odalarımızda klima bulunmaktadır"
 }, {
     "id": "3",
-    "sss": "Oteliniz engelli dostu, erişilebilir bir otel midir?",
-    "sss_content": "Pyramıd Stone House engelli dostu bir oteldir."
+    "sss": "Evcil hayvan kabul ediyor musunuz?",
+    "sss_content": "Otelimize 10 kg üzeri olmamak kaydıyla köpek kabul edilmektedir."
 }, {
     "id": "4",
-    "sss": "Oteliniz engelli dostu, erişilebilir bir otel midir?",
-    "sss_content": "Pyramıd Stone House engelli dostu bir oteldir."
+    "sss": "Evcil hayvan kabul ediyor musunuz?",
+    "sss_content": "Otelimize 10 kg üzeri olmamak kaydıyla köpek kabul edilmektedir."
 }, {
     "id": "5",
-    "sss": "Oteliniz engelli dostu, erişilebilir bir otel midir?",
-    "sss_content": "Pyramıd Stone House engelli dostu bir oteldir."
+    "sss": "Pyramıd Stone House tam olarak nerededir? Önemli gezi noktalarına uzaklığı ne kadardır?",
+    "sss_content": "Pyramıd Stone House, Kapadokya’nın zirvesinde yer almaktadır. Otel konumu itibariyle Erciyes Dağı, Güvercinlik Vadisi, Kızıl Vadi, Aşıklar Vadisi, Göreme, Ortahisar ve Avanos manzaralıdır. Pyramıd Stone House Kapadokya bölgesinin en önemli turistik alanlarına uzaklığı ise şu şekildedir; Uçhisar kalesi 1km, Göreme Açıkhava Müzesi 4km, Zelve Açıkhava Müzesi 8km, Paşabağ ve Devrent vadisi 10km, Ürgüp 15km, Kaymaklı Yeraltı Şehri 25km"
+}, {
+    "id": "6",
+    "sss": "Pyramıd Stone House için hangi havaalanını kullanmamızı önerirsiniz?",
+    "sss_content": "Kapadokya bölgesine hizmet veren iki havaalanı mevcuttur. Bunlar Nevşehir (NAV) ve Kayseri (ASR) havaalanlarıdır. Her ikisinden de Kapadokya’ya ulaşım oldukça kolaydır. Nevsehir havaalanı Museum Hotel’e 30km uzaklıkta olup yaklaşık yarım saatlik sürüş mesafesindedir. Kayseri havaalanı ise; 65km mesafede ve yaklaşık 45dk uzaklıktadır."
 }]

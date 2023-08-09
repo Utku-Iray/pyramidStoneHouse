@@ -44,16 +44,16 @@
                 <div class="row">
                     <!-- Rezervasyon -->
                     <div class="col-md-5 mb-30 mt-30">
-                        <p><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></p>
-                        <h5>Each of our guest rooms feature a private bath, wi-fi, cable television and include full breakfast.</h5>
-                        <div class="reservations mb-30">
-                            <div class="icon color-1"><span class="flaticon-call"></span></div>
-                            <div class="text">
-                                <p class="color-1">Rezervasyon</p> <a class="color-1" href="tel:855-100-4444">0384 219 4040</a>
-                            </div>
+                    <p><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></p>
+                    <h5>Masalların, gerçeküstü öykülerin, kulaktan kulağa yayılan tüm o büyülü anlatılara konu olmuş bir kentin tam ortasında, sevgiye, mutluluğa, güzel anılar biriktirmeye inanan herkes evinde hissetsin diye kesişti yollarımız.</h5>
+                    <div class="reservations mb-30">
+                        <div class="icon color-1"><span class="flaticon-call"></span></div>
+                        <div class="text">
+                            <p class="color-1">Rezervasyon</p> <a class="color-1" href="tel:855-100-4444">0384 219 4040</a>
                         </div>
-                        <p><i class="ti-check"></i><small>Call us, it's toll-free.</small></p>
                     </div>
+                    <p><i class="ti-check"></i><small> Ücretsiz şekilde bizi arayabilirsiniz</small></p>
+                </div>
                     <!-- Booking From -->
                     <div class="col-md-5 offset-md-2">
                         <div class="booking-box">
@@ -121,7 +121,7 @@
         </div>
     </section>
     <!-- Clients -->
-    <section class="clients">
+    <!-- <section class="clients">
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
@@ -148,7 +148,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <?php
  include 'php/footer.php' ;
  ?>

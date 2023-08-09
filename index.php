@@ -24,8 +24,8 @@ $blogJSON = json_decode(file_get_contents('data/blog.json'));
                                 <i class="star-rating"></i>
                             </span>
                             <h4>Luxury Hotel & Best Resort</h4>
-                            <h1>Enjoy a Luxury Experience</h1>
-                            <div class="butn-light mt-30 mb-30"> <a href="#" data-scroll-nav="1"><span>Odalar & Suitler</span></a> </div>
+                            <h1>Pyramid Stone House</h1>
+                            <div class="butn-light mt-30 mb-30"> <a href="rooms-and-suits.php" data-scroll-nav="1"><span>Odalar & Suitler</span></a> </div>
                         </div>
                     </div>
                 </div>
@@ -44,8 +44,8 @@ $blogJSON = json_decode(file_get_contents('data/blog.json'));
                                 <i class="star-rating"></i>
                             </span>
                             <h4>Unique Place to Relax & Enjoy</h4>
-                            <h1>The Perfect Base For You</h1>
-                            <div class="butn-light mt-30 mb-30"> <a href="#" data-scroll-nav="1"><span>Odalar & Suitler</span></a> </div>
+                            <h1>Pyramid Stone House</h1>
+                            <div class="butn-light mt-30 mb-30"> <a href="rooms-and-suits.php" data-scroll-nav="1"><span>Odalar & Suitler</span></a> </div>
                         </div>
                     </div>
                 </div>
@@ -230,7 +230,7 @@ $blogJSON = json_decode(file_get_contents('data/blog.json'));
                                     <div class="name"><?= $activity->name ?></div>
                                     <!-- <div class="amount">$50<span>/ month</span></div> -->
                                     <ul class="list-unstyled list">
-                                        <li><i class="ti-check"></i> <?= $activity->description?></li>
+                                        <li><i class="ti-check"></i> <?= $activity->description ?></li>
                                     </ul>
                                 </div>
 
@@ -331,7 +331,70 @@ $blogJSON = json_decode(file_get_contents('data/blog.json'));
     </div>
 </section>
 
+<section class="services section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 p-0 animate-box" data-animate-effect="fadeInLeft">
+                <div class="img left">
+                    <a href="#0"><img src="img/balayi.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="col-md-6 p-0 bg-cream valign animate-box" data-animate-effect="fadeInRight">
+                <div class="content">
+                    <div class="cont text-left">
+                        <div class="info">
+                            <h6>Pyramid Stone House</h6>
+                        </div>
+                        <h4>Balayı Paketimiz</h4>
+                        <p>Özel karşılama ve hoş geldin ikramı,
+                           <br> Odaya Şarap & meyve tabağı ikramı,
+                           <br> Erken giriş ve geç çıkış imkânı (müsaitliğe göre öncelik tanınacaktır),
+                           <br> Özel balayı oda süslemesi (istek üzerine, ücretli olacaktır),
+                           <br> Odaya sabah kahvaltısı (konaklama boyunca 1 kez ve istek üzerine),
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 bg-cream p-0 order2 valign animate-box" data-animate-effect="fadeInLeft">
+                <div class="content">
+                    <div class="cont text-left">
+                        <div class="info">
+                            <h6>Pyramid Stone House</h6>
+                        </div>
+                        <h4>Evlilik Teklifi</h4>
+                        <p>“Benimle evlenir misin?” sorusuna “Evet!” yanıtını verdirecek bir ilişki her yerde güzel. Ama iddialıyız; evlilik teklifinin “torunlara anlatılacak olanı” Pyramıd Stone House yaşanır! Sizler için özel olarak hazırladığımız evlilik teklifi paketimizi inceleyin.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 p-0 order1 animate-box" data-animate-effect="fadeInRight">
+                <div class="img">
+                    <a href="#0"><img src="img/evlilik-teklifi.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 p-0 animate-box" data-animate-effect="fadeInLeft">
+                <div class="img left">
+                    <a href="#0"><img src="img/dogum-gunu.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="col-md-6 p-0 bg-cream valign animate-box" data-animate-effect="fadeInRight">
+                <div class="content">
+                    <div class="cont text-left">
+                        <div class="info">
+                            <h6>Pyramid Stone House</h6>
+                        </div>
+                        <h4>Doğum Günü</h4>
+                        <p>Yeni bir yaşa sevdiklerinizle ve unutulmayacak bir şekilde girmek kadar keyifli bir şey var mı? Sizin için yılın en özel gününü, en unutulmaz anılarla doldurmak için nasıl bir plan yapalım?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+    </div>
+</section>
 <section class="news section-padding bg-blck">
     <div class="container">
         <div class="row">
@@ -343,20 +406,20 @@ $blogJSON = json_decode(file_get_contents('data/blog.json'));
         <div class="row">
             <div class="col-md-12">
                 <div class="owl-carousel owl-theme">
-                    <?php foreach ($blogJSON as $blog ) {?>
-                       <div class="item">
-                       <div class="position-re o-hidden"> <img src="<?= $blog->blog_first_image ?>" alt="">
-                           
-                       </div>
-                       <div class="con"> <span class="category">
-                               <a href="#0">Pyramid Stone House</a>
-                           </span>
-                           <h5><a href="blog-details.php?url=<?= $blog->blog_url ?>"><?= $blog->blog_name ?></a></h5>
-                       </div>
-                   </div>
-                   <?php } ?>
-                   
-                    
+                    <?php foreach ($blogJSON as $blog) { ?>
+                        <div class="item">
+                            <div class="position-re o-hidden"> <img src="<?= $blog->blog_first_image ?>" alt="">
+
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="#0">Pyramid Stone House</a>
+                                </span>
+                                <h5><a href="blog-details.php?url=<?= $blog->blog_url ?>"><?= $blog->blog_name ?></a></h5>
+                            </div>
+                        </div>
+                    <?php } ?>
+
+
 
 
                 </div>
@@ -372,14 +435,14 @@ $blogJSON = json_decode(file_get_contents('data/blog.json'));
                 <!-- Rezervasyon -->
                 <div class="col-md-5 mb-30 mt-30">
                     <p><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></p>
-                    <h5>Each of our guest rooms feature a private bath, wi-fi, cable television and include full breakfast.</h5>
+                    <h5>Masalların, gerçeküstü öykülerin, kulaktan kulağa yayılan tüm o büyülü anlatılara konu olmuş bir kentin tam ortasında, sevgiye, mutluluğa, güzel anılar biriktirmeye inanan herkes evinde hissetsin diye kesişti yollarımız.</h5>
                     <div class="reservations mb-30">
                         <div class="icon color-1"><span class="flaticon-call"></span></div>
                         <div class="text">
                             <p class="color-1">Rezervasyon</p> <a class="color-1" href="tel:855-100-4444">0384 219 4040</a>
                         </div>
                     </div>
-                    <p><i class="ti-check"></i><small>Call us, it's toll-free.</small></p>
+                    <p><i class="ti-check"></i><small> Ücretsiz şekilde bizi arayabilirsiniz</small></p>
                 </div>
                 <!-- Booking From -->
                 <div class="col-md-5 offset-md-2">
@@ -448,7 +511,7 @@ $blogJSON = json_decode(file_get_contents('data/blog.json'));
     </div>
 </section>
 <!-- Clients -->
-<section class="clients">
+<!-- <section class="clients">
     <div class="container">
         <div class="row">
             <div class="col-md-7">
@@ -475,5 +538,5 @@ $blogJSON = json_decode(file_get_contents('data/blog.json'));
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <?php include 'php/footer.php' ?>

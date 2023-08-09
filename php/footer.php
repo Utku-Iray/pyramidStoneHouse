@@ -22,7 +22,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="footer-column footer-contact">
-                        <h3 class="footer-title">Contact</h3>
+                        <h3 class="footer-title">İletişim</h3>
                         <p class="footer-contact-text">Aşağı Mahalle, Keçeci Evi Sokak,<br> No:4 Uçhisar/NEVŞEHİR</p>
                         <div class="footer-contact-info">
                             <p class="footer-contact-phone"><span class="flaticon-call"></span>0384 219 4040</p>

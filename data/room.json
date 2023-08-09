@@ -1,6 +1,6 @@
 [
     {
-        "name": "Superior",
+        "name": "Superior 101",
         "category_id": "superior",
         "url": "superior",
         "photo": "img/rooms/standart-1/1.jpg",
@@ -15,7 +15,7 @@
             "img/rooms/standart-1/8.jpg"
         ],
         "content": "Güzel atlar ülkesi” anlamına gelen Kapadokya’yı keşfetmenin en güzel yollarından biri, doğal güzelliklerin arasında konaklayarak şehrin büyüsünü yakından hissetmek. Hizmetinize sunduğumuz standart odalarımız, misafirlerimizin beklentisini en üst düzeyde karşılamak için tasarlanmıştır.<br><br>Kapadokya’nın tüm güzelliklerini yansıtan bir konumda bulunan standart odamız, her açıdan şehrin nefesleri kesen tarihini ve güzelliklerini içinde barındırır. konforunuz için özenle tasarlanmışlardır.<br><br>Standart oda deneyimini tadarak sadece bir otelde kalmış olmayacaksınız. Günlük hayatın stresinden uzaklaşacak, tadı damağınızda kalacak yemekleriyle lezzet şöleni yaşayacaksınız.<br><br> Bir konaklama deneyimi için beklediğinizden çok daha fazlasını, standart odalarımızda bulabilirsiniz.",
-        "features": [
+        "ana_features": [
             {
                 "featureName": "Tarz: Stone",
                 "icon": "like"
@@ -29,61 +29,62 @@
                 "icon": "like"
             },
             {
-                "featureName": "Yatak:",
-                "icon": "like"
-            },
-            {
-                "featureName": "Çay Kahve İkramı",
-                "icon": "like"
-            },
-            {
-                "featureName": "Klima",
-                "icon": "like"
-            },
-            {
-                "featureName": "Minibar",
-                "icon": "like"
-            },
-            {
-                "featureName": "HD Tv",
-                "icon": "like"
-            },
-            {
-                "featureName": "Oda Kasa",
-                "icon": "like"
-            },
-            {
-                "featureName": "Yastık Menüsü",
-                "icon": "like"
-            },
-            {
-                "featureName": "Jakuzi",
-                "icon": "like"
-            },
-            {
-                "featureName": "Duş Bölümü",
-                "icon": "like"
-            },
-            {
-                "featureName": "Saç Kurutma Makinası",
-                "icon": "like"
-            },
-            {
-                "featureName": "Ütü ve Ütü Masası",
-                "icon": "like"
-            },
-            {
-                "featureName": "Makyaj Aynası",
-                "icon": "like"
-            },
-            {
-                "featureName": "Wifi",
+                "featureName": "Yatak: 2/2",
                 "icon": "like"
             }
-        ]
+            
+        ],
+        "sub_features":[{
+            "featureName": "Çay Kahve İkramı",
+            "icon": "like"
+        },
+        {
+            "featureName": "Klima",
+            "icon": "like"
+        },
+        {
+            "featureName": "Minibar",
+            "icon": "like"
+        },
+        {
+            "featureName": "HD Tv",
+            "icon": "like"
+        },
+        {
+            "featureName": "Oda Kasa",
+            "icon": "like"
+        },
+        {
+            "featureName": "Yastık Menüsü",
+            "icon": "like"
+        },
+        {
+            "featureName": "Jakuzi",
+            "icon": "like"
+        },
+        {
+            "featureName": "Duş Bölümü",
+            "icon": "like"
+        },
+        {
+            "featureName": "Saç Kurutma Makinası",
+            "icon": "like"
+        },
+        {
+            "featureName": "Ütü ve Ütü Masası",
+            "icon": "like"
+        },
+        {
+            "featureName": "Makyaj Aynası",
+            "icon": "like"
+        },
+        {
+            "featureName": "Wifi",
+            "icon": "like"
+        }]
     },
     {
-        "name": "Superior 2",
+        "name": "Superior 103",
         "category_id": "superior",
         "url": "superior-2",
         "photo": "img/rooms/standart-2/1.jpg",
@@ -98,7 +99,7 @@
             "img/rooms/standart-2/8.jpg"
         ],
         "content": "Yöresel taşlar ve ahşap bir araya getirilerek ustalıkla oluşturulan bu zarif süitlerin her birinde keyfinizce dinlenebileceğiniz oturma odası mevcut. Benzersiz manzarayı seyre dalmak istediğinizde ise teras, emrinize amade. Modern mobilyaların, geleneksel Türk halıları harmanlandığı süitlerde, tavan gibi klasik mimari detaylar da dikkat çekiyor. Süitlerde bulunan şömineler de, kış aylarında ısınıp rahatlamak ve Kapadokya gezinizin yorgunluğunu atmak için ideal.",
-        "features": [
+        "ana_features": [
             {
                 "featureName": "Tarz: Stone",
                 "icon": "like"
@@ -112,61 +113,62 @@
                 "icon": "like"
             },
             {
-                "featureName": "Yatak:",
-                "icon": "like"
-            },
-            {
-                "featureName": "Çay Kahve İkramı",
-                "icon": "like"
-            },
-            {
-                "featureName": "Klima",
-                "icon": "like"
-            },
-            {
-                "featureName": "Minibar",
-                "icon": "like"
-            },
-            {
-                "featureName": "HD Tv",
-                "icon": "like"
-            },
-            {
-                "featureName": "Oda Kasa",
-                "icon": "like"
-            },
-            {
-                "featureName": "Yastık Menüsü",
-                "icon": "like"
-            },
-            {
-                "featureName": "Jakuzi",
-                "icon": "like"
-            },
-            {
-                "featureName": "Duş Bölümü",
-                "icon": "like"
-            },
-            {
-                "featureName": "Saç Kurutma Makinası",
-                "icon": "like"
-            },
-            {
-                "featureName": "Ütü ve Ütü Masası",
-                "icon": "like"
-            },
-            {
-                "featureName": "Makyaj Aynası",
-                "icon": "like"
-            },
-            {
-                "featureName": "Wifi",
+                "featureName": "Yatak: 1/2",
                 "icon": "like"
             }
-        ]
+            
+        ],
+        "sub_features":[{
+            "featureName": "Çay Kahve İkramı",
+            "icon": "like"
+        },
+        {
+            "featureName": "Klima",
+            "icon": "like"
+        },
+        {
+            "featureName": "Minibar",
+            "icon": "like"
+        },
+        {
+            "featureName": "HD Tv",
+            "icon": "like"
+        },
+        {
+            "featureName": "Oda Kasa",
+            "icon": "like"
+        },
+        {
+            "featureName": "Yastık Menüsü",
+            "icon": "like"
+        },
+        {
+            "featureName": "Jakuzi",
+            "icon": "like"
+        },
+        {
+            "featureName": "Duş Bölümü",
+            "icon": "like"
+        },
+        {
+            "featureName": "Saç Kurutma Makinası",
+            "icon": "like"
+        },
+        {
+            "featureName": "Ütü ve Ütü Masası",
+            "icon": "like"
+        },
+        {
+            "featureName": "Makyaj Aynası",
+            "icon": "like"
+        },
+        {
+            "featureName": "Wifi",
+            "icon": "like"
+        }]
     },
     {
-        "name": "Deluxe",
+        "name": "Deluxe 205",
         "category_id": "deluxe",
         "url": "deluxe",
         "photo": "img/rooms/deluxe-1/1.jpg",
@@ -187,7 +189,7 @@
             "img/rooms/deluxe-1/14.jpg"
         ],
         "content": "Yöresel taşlar ve ahşap bir araya getirilerek ustalıkla oluşturulan bu zarif süitlerin her birinde keyfinizce dinlenebileceğiniz oturma odası mevcut. Benzersiz manzarayı seyre dalmak istediğinizde ise teras, emrinize amade. Modern mobilyaların, geleneksel Türk halıları harmanlandığı süitlerde, tavan gibi klasik mimari detaylar da dikkat çekiyor. Süitlerde bulunan şömineler de, kış aylarında ısınıp rahatlamak ve Kapadokya gezinizin yorgunluğunu atmak için ideal.",
-        "features": [
+        "ana_features": [
             {
                 "featureName": "Tarz: Stone",
                 "icon": "like"
@@ -201,61 +203,62 @@
                 "icon": "like"
             },
             {
-                "featureName": "Yatak:",
-                "icon": "like"
-            },
-            {
-                "featureName": "Çay Kahve İkramı",
-                "icon": "like"
-            },
-            {
-                "featureName": "Klima",
-                "icon": "like"
-            },
-            {
-                "featureName": "Minibar",
-                "icon": "like"
-            },
-            {
-                "featureName": "HD Tv",
-                "icon": "like"
-            },
-            {
-                "featureName": "Oda Kasa",
-                "icon": "like"
-            },
-            {
-                "featureName": "Yastık Menüsü",
-                "icon": "like"
-            },
-            {
-                "featureName": "Jakuzi",
-                "icon": "like"
-            },
-            {
-                "featureName": "Duş Bölümü",
-                "icon": "like"
-            },
-            {
-                "featureName": "Saç Kurutma Makinası",
-                "icon": "like"
-            },
-            {
-                "featureName": "Ütü ve Ütü Masası",
-                "icon": "like"
-            },
-            {
-                "featureName": "Makyaj Aynası",
-                "icon": "like"
-            },
-            {
-                "featureName": "Wifi",
+                "featureName": "Yatak: 1.60/2",
                 "icon": "like"
             }
-        ]
+            
+        ],
+        "sub_features":[{
+            "featureName": "Çay Kahve İkramı",
+            "icon": "like"
+        },
+        {
+            "featureName": "Klima",
+            "icon": "like"
+        },
+        {
+            "featureName": "Minibar",
+            "icon": "like"
+        },
+        {
+            "featureName": "HD Tv",
+            "icon": "like"
+        },
+        {
+            "featureName": "Oda Kasa",
+            "icon": "like"
+        },
+        {
+            "featureName": "Yastık Menüsü",
+            "icon": "like"
+        },
+        {
+            "featureName": "Jakuzi",
+            "icon": "like"
+        },
+        {
+            "featureName": "Duş Bölümü",
+            "icon": "like"
+        },
+        {
+            "featureName": "Saç Kurutma Makinası",
+            "icon": "like"
+        },
+        {
+            "featureName": "Ütü ve Ütü Masası",
+            "icon": "like"
+        },
+        {
+            "featureName": "Makyaj Aynası",
+            "icon": "like"
+        },
+        {
+            "featureName": "Wifi",
+            "icon": "like"
+        }]
     },
     {
-        "name": "Deluxe 2",
+        "name": "Deluxe 204",
         "category_id": "deluxe",
         "url": "deluxe-2",
         "photo": "img/rooms/deluxe-2/1.jpg",
@@ -273,7 +276,7 @@
             "img/rooms/deluxe-2/11.jpg"
         ],
         "content": "Yöresel taşlar ve ahşap bir araya getirilerek ustalıkla oluşturulan bu zarif süitlerin her birinde keyfinizce dinlenebileceğiniz oturma odası mevcut. Benzersiz manzarayı seyre dalmak istediğinizde ise teras, emrinize amade. Modern mobilyaların, geleneksel Türk halıları harmanlandığı süitlerde, tavan gibi klasik mimari detaylar da dikkat çekiyor. Süitlerde bulunan şömineler de, kış aylarında ısınıp rahatlamak ve Kapadokya gezinizin yorgunluğunu atmak için ideal.",
-        "features": [
+        "ana_features": [
             {
                 "featureName": "Tarz: Stone",
                 "icon": "like"
@@ -287,61 +290,62 @@
                 "icon": "like"
             },
             {
-                "featureName": "Yatak:",
-                "icon": "like"
-            },
-            {
-                "featureName": "Çay Kahve İkramı",
-                "icon": "like"
-            },
-            {
-                "featureName": "Klima",
-                "icon": "like"
-            },
-            {
-                "featureName": "Minibar",
-                "icon": "like"
-            },
-            {
-                "featureName": "HD Tv",
-                "icon": "like"
-            },
-            {
-                "featureName": "Oda Kasa",
-                "icon": "like"
-            },
-            {
-                "featureName": "Yastık Menüsü",
-                "icon": "like"
-            },
-            {
-                "featureName": "Jakuzi",
-                "icon": "like"
-            },
-            {
-                "featureName": "Duş Bölümü",
-                "icon": "like"
-            },
-            {
-                "featureName": "Saç Kurutma Makinası",
-                "icon": "like"
-            },
-            {
-                "featureName": "Ütü ve Ütü Masası",
-                "icon": "like"
-            },
-            {
-                "featureName": "Makyaj Aynası",
-                "icon": "like"
-            },
-            {
-                "featureName": "Wifi",
+                "featureName": "Yatak: 1.60/2",
                 "icon": "like"
             }
-        ]
+            
+        ],
+        "sub_features":[{
+            "featureName": "Çay Kahve İkramı",
+            "icon": "like"
+        },
+        {
+            "featureName": "Klima",
+            "icon": "like"
+        },
+        {
+            "featureName": "Minibar",
+            "icon": "like"
+        },
+        {
+            "featureName": "HD Tv",
+            "icon": "like"
+        },
+        {
+            "featureName": "Oda Kasa",
+            "icon": "like"
+        },
+        {
+            "featureName": "Yastık Menüsü",
+            "icon": "like"
+        },
+        {
+            "featureName": "Jakuzi",
+            "icon": "like"
+        },
+        {
+            "featureName": "Duş Bölümü",
+            "icon": "like"
+        },
+        {
+            "featureName": "Saç Kurutma Makinası",
+            "icon": "like"
+        },
+        {
+            "featureName": "Ütü ve Ütü Masası",
+            "icon": "like"
+        },
+        {
+            "featureName": "Makyaj Aynası",
+            "icon": "like"
+        },
+        {
+            "featureName": "Wifi",
+            "icon": "like"
+        }]
     },
     {
-        "name": "King Suit",
+        "name": "King Suit 102",
         "category_id": "suit",
         "url": "king-suit",
         "photo": "img/rooms/king-suits-1/1.jpg",
@@ -364,7 +368,7 @@
             "img/rooms/king-suits-1/16.jpg"
         ],
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<<br><h1>Where does it come from?</h1><br>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,'Lorem ipsum dolor sit amet..', comes from a line in section 1.10.32.<br><br>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from 'de Finibus Bonorum et Malorum' by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham",
-        "features": [
+        "ana_features": [
             {
                 "featureName": "Tarz: Stone",
                 "icon": "like"
@@ -378,61 +382,62 @@
                 "icon": "like"
             },
             {
-                "featureName": "Yatak:",
-                "icon": "like"
-            },
-            {
-                "featureName": "Çay Kahve İkramı",
-                "icon": "like"
-            },
-            {
-                "featureName": "Klima",
-                "icon": "like"
-            },
-            {
-                "featureName": "Minibar",
-                "icon": "like"
-            },
-            {
-                "featureName": "HD Tv",
-                "icon": "like"
-            },
-            {
-                "featureName": "Oda Kasa",
-                "icon": "like"
-            },
-            {
-                "featureName": "Yastık Menüsü",
-                "icon": "like"
-            },
-            {
-                "featureName": "Jakuzi",
-                "icon": "like"
-            },
-            {
-                "featureName": "Duş Bölümü",
-                "icon": "like"
-            },
-            {
-                "featureName": "Saç Kurutma Makinası",
-                "icon": "like"
-            },
-            {
-                "featureName": "Ütü ve Ütü Masası",
-                "icon": "like"
-            },
-            {
-                "featureName": "Makyaj Aynası",
-                "icon": "like"
-            },
-            {
-                "featureName": "Wifi",
+                "featureName": "Yatak: 1.60/2",
                 "icon": "like"
             }
-        ]
+            
+        ],
+        "sub_features":[{
+            "featureName": "Çay Kahve İkramı",
+            "icon": "like"
+        },
+        {
+            "featureName": "Klima",
+            "icon": "like"
+        },
+        {
+            "featureName": "Minibar",
+            "icon": "like"
+        },
+        {
+            "featureName": "HD Tv",
+            "icon": "like"
+        },
+        {
+            "featureName": "Oda Kasa",
+            "icon": "like"
+        },
+        {
+            "featureName": "Yastık Menüsü",
+            "icon": "like"
+        },
+        {
+            "featureName": "Jakuzi",
+            "icon": "like"
+        },
+        {
+            "featureName": "Duş Bölümü",
+            "icon": "like"
+        },
+        {
+            "featureName": "Saç Kurutma Makinası",
+            "icon": "like"
+        },
+        {
+            "featureName": "Ütü ve Ütü Masası",
+            "icon": "like"
+        },
+        {
+            "featureName": "Makyaj Aynası",
+            "icon": "like"
+        },
+        {
+            "featureName": "Wifi",
+            "icon": "like"
+        }]
     },
     {
-        "name": "King Suit 2",
+        "name": "King Suit 202",
         "category_id": "suit",
         "url": "king-suit-2",
         "photo": "img/rooms/king-suits-2/1.jpg",
@@ -457,7 +462,7 @@
             "img/rooms/king-suits-2/18.jpg"
         ],
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<br><h1>Where does it come from?</h1><br>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,'Lorem ipsum dolor sit amet..', comes from a line in section 1.10.32.<br><br>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from 'de Finibus Bonorum et Malorum' by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham",
-        "features": [
+        "ana_features": [
             {
                 "featureName": "Tarz: Stone",
                 "icon": "like"
@@ -471,57 +476,58 @@
                 "icon": "like"
             },
             {
-                "featureName": "Yatak:",
-                "icon": "like"
-            },
-            {
-                "featureName": "Çay Kahve İkramı",
-                "icon": "like"
-            },
-            {
-                "featureName": "Klima",
-                "icon": "like"
-            },
-            {
-                "featureName": "Minibar",
-                "icon": "like"
-            },
-            {
-                "featureName": "HD Tv",
-                "icon": "like"
-            },
-            {
-                "featureName": "Oda Kasa",
-                "icon": "like"
-            },
-            {
-                "featureName": "Yastık Menüsü",
-                "icon": "like"
-            },
-            {
-                "featureName": "Jakuzi",
-                "icon": "like"
-            },
-            {
-                "featureName": "Duş Bölümü",
-                "icon": "like"
-            },
-            {
-                "featureName": "Saç Kurutma Makinası",
-                "icon": "like"
-            },
-            {
-                "featureName": "Ütü ve Ütü Masası",
-                "icon": "like"
-            },
-            {
-                "featureName": "Makyaj Aynası",
-                "icon": "like"
-            },
-            {
-                "featureName": "Wifi",
+                "featureName": "Yatak: 1.60/2",
                 "icon": "like"
             }
-        ]
+            
+        ],
+        "sub_features":[{
+            "featureName": "Çay Kahve İkramı",
+            "icon": "like"
+        },
+        {
+            "featureName": "Klima",
+            "icon": "like"
+        },
+        {
+            "featureName": "Minibar",
+            "icon": "like"
+        },
+        {
+            "featureName": "HD Tv",
+            "icon": "like"
+        },
+        {
+            "featureName": "Oda Kasa",
+            "icon": "like"
+        },
+        {
+            "featureName": "Yastık Menüsü",
+            "icon": "like"
+        },
+        {
+            "featureName": "Jakuzi",
+            "icon": "like"
+        },
+        {
+            "featureName": "Duş Bölümü",
+            "icon": "like"
+        },
+        {
+            "featureName": "Saç Kurutma Makinası",
+            "icon": "like"
+        },
+        {
+            "featureName": "Ütü ve Ütü Masası",
+            "icon": "like"
+        },
+        {
+            "featureName": "Makyaj Aynası",
+            "icon": "like"
+        },
+        {
+            "featureName": "Wifi",
+            "icon": "like"
+        }]
     }
 ]
