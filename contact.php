@@ -17,11 +17,11 @@
         <div class="row mb-90">
             <div class="col-md-6 mb-60">
                 <h3>Pyramid Stone House</h3>
-                <p>Hotel ut nisl quam nestibulum ac quam nec odio elementum sceisue the aucan ligula. Orci varius natoque penatibus et magnis dis parturient monte nascete ridiculus mus nellentesque habitant morbine.</p>
+                <p>Masalların, gerçeküstü öykülerin, kulaktan kulağa yayılan tüm o büyülü anlatılara konu olmuş bir kentin tam ortasında, sevgiye, mutluluğa, güzel anılar biriktirmeye inanan herkes evinde hissetsin diye kesişti yollarımız. “Hiçbir şey tesadüf değildir” derler, bu karşılaşma da öyle.</p>
                 <div class="reservations mb-30">
                     <div class="icon"><span class="flaticon-call"></span></div>
                     <div class="text">
-                        <p>Rezervasyon</p> <a href="tel:855-100-4444">0384 219 4040</a>
+                        <p>Rezervasyon</p> <a href="tel:0384 219 4040">0384 219 4040</a>
                     </div>
                 </div>
                 <div class="reservations mb-30">
@@ -74,7 +74,7 @@
         <!-- Map Section -->
         <div class="row">
             <div class="col-md-12 map animate-box" data-animate-effect="fadeInUp">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1573147.7480448114!2d-74.84628175962355!3d41.04009641088412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25856139b3d33%3A0xb2739f33610a08ee!2s1616%20Broadway%2C%20New%20York%2C%20NY%2010019%2C%20Amerika%20Birle%C5%9Fik%20Devletleri!5e0!3m2!1str!2str!4v1646760525018!5m2!1str!2str" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6233.758931670198!2d34.79546454690695!3d38.62865386860622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152a695265b86b87%3A0x4c9223bfe76fe52f!2sPyramid%20Stone%20House%20Hotel!5e0!3m2!1str!2str!4v1691587459498!5m2!1str!2str" width="100%" height="650px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
@@ -87,11 +87,11 @@
                 <!-- Rezervasyon -->
                 <div class="col-md-5 mb-30 mt-30">
                     <p><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></p>
-                    <h5>Each of our guest rooms feature a private bath, wi-fi, cable television and include full breakfast.</h5>
+                    <h5>Masalların, gerçeküstü öykülerin, kulaktan kulağa yayılan tüm o büyülü anlatılara konu olmuş bir kentin tam ortasında, sevgiye, mutluluğa, güzel anılar biriktirmeye inanan herkes evinde hissetsin diye kesişti yollarımız.</h5>
                     <div class="reservations mb-30">
                         <div class="icon color-1"><span class="flaticon-call"></span></div>
                         <div class="text">
-                            <p class="color-1">Rezervasyon</p> <a class="color-1" href="tel:855-100-4444">0384 219 4040</a>
+                            <p class="color-1">Rezervasyon</p> <a class="color-1" href="tel:0384 219 4040">0384 219 4040</a>
                         </div>
                     </div>
                     <p><i class="ti-check"></i><small>Call us, it's toll-free.</small></p>

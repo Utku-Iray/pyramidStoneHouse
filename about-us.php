@@ -30,7 +30,7 @@
                 <div class="reservations">
                     <div class="icon"><span class="flaticon-call"></span></div>
                     <div class="text">
-                        <p>Rezervasyon</p> <a href="tel:855-100-4444">0384 219 4040</a>
+                        <p>Rezervasyon</p> <a href="tel:0384 219 4040">0384 219 4040</a>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                 <div class="reservations">
                     <div class="icon"><span class="flaticon-call"></span></div>
                     <div class="text">
-                        <p>Rezervasyon</p> <a href="tel:855-100-4444">0384 219 4040</a>
+                        <p>Rezervasyon</p> <a href="tel:0384 219 4040">0384 219 4040</a>
                     </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@
                 <div class="reservations mb-30">
                     <div class="icon"><span class="flaticon-call"></span></div>
                     <div class="text">
-                        <p class="color-2">İletişim</p> <a href="tel:855-100-4444">0384 219 4040</a>
+                        <p class="color-2">İletişim</p> <a href="tel:0384 219 4040">0384 219 4040</a>
                     </div>
                 </div>
             </div>
