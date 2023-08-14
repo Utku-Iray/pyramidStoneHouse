@@ -40,29 +40,29 @@
             </div>
             <div class="col-md-5 mb-30 offset-md-1">
                 <h3>Bizimle İletişime Geçin</h3>
-                <form method="post" class="contact__form" action="mail.php">
+                <form action="mail/tesekkurler.php" method="POST" >
                     <!-- form message -->
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col-12">
                             <div class="alert alert-success contact__msg" style="display: none" role="alert"> Your message was sent successfully. </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- form elements -->
                     <div class="row">
                         <div class="col-md-6 form-group">
-                            <input name="name" type="text" placeholder="Adınız *" required="">
+                            <input name="customerNameSurname" type="text" placeholder="Adınız *" required="">
                         </div>
                         <div class="col-md-6 form-group">
-                            <input name="email" type="email" placeholder="E-Mail *" required="">
+                            <input name="customerMail" type="email" placeholder="E-Mail *" required="">
                         </div>
                         <div class="col-md-6 form-group">
-                            <input name="phone" type="text" placeholder="Numaranız *" required="">
+                            <input name="customerPhone" type="text" placeholder="Numaranız *" required="">
                         </div>
                         <div class="col-md-6 form-group">
-                            <input name="subject" type="text" placeholder="Konu *" required="">
+                            <input name="customerSubject" type="text" placeholder="Konu *" required="">
                         </div>
                         <div class="col-md-12 form-group">
-                            <textarea name="message" id="message" cols="30" rows="4" placeholder="Mesaj *" required=""></textarea>
+                            <textarea name="customerNote"  cols="30" rows="4" placeholder="Mesaj *" required=""></textarea>
                         </div>
                         <div class="col-md-12">
                             <button type="submit" class="butn-dark2"><span>Gönder</span></button>
