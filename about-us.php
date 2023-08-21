@@ -1,5 +1,9 @@
-<?php include 'php/head.php' ?>
-<?php include 'php/header.php' ?>
+<?php 
+include 'php/head.php' ;
+ include 'php/header.php';
+$activitiesJSON = json_decode(file_get_contents('data/activities.json'));
+ 
+ ?>
 <!-- Header Banner -->
 <div class="banner-header section-padding valign bg-img bg-fixed" data-overlay-dark="4" data-background="img/slider/1.jpg">
     <div class="container">
@@ -36,7 +40,7 @@
             </div>
             <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp"> <img src="img/rooms/8.jpg" alt="" class="mt-90 mb-30"> </div>
             <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp"> <img src="img/rooms/2.jpg" alt=""> </div>
-            
+
             <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp"> <img src="img/rooms/8.jpg" alt="" class="mt-90 mb-30"> </div>
             <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp"> <img src="img/rooms/2.jpg" alt=""> </div>
             <div class="col-md-6 mb-30 mt-70 animate-box" data-animate-effect="fadeInUp">
@@ -81,41 +85,26 @@
                 </div>
             </div>
             <div class="col-md-8">
-                <div class="owl-carousel owl-theme">
-                <div class="pricing-card">
-                        <img src="img/aktiviteler/aktivite-balon.jpg" alt="">
-                        <div class="desc">
-                            <div class="name">Balon Turları</div>
-                            <!-- <div class="amount">$50<span>/ month</span></div> -->
-                            <ul class="list-unstyled list">
-                                <li><i class="ti-check"></i> Hotel ut nisan the duru</li>
-                                <li><i class="ti-check"></i> Orci miss natoque vasa ince</li>
-                                <li><i class="ti-close unavailable"></i>Clean sorem ipsum morbin</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="pricing-card">
-                        <img src="img/aktiviteler/aktivite-atv.jpg" alt="">
-                        <div class="desc">
-                            <div class="name">Atv Turları</div>
-                            <ul class="list-unstyled list">
-                                <li><i class="ti-check"></i> Hotel ut nisan the duru</li>
-                                <li><i class="ti-check"></i> Orci miss natoque vasa ince</li>
-                                <li><i class="ti-close unavailable"></i>Clean sorem ipsum morbin</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="pricing-card">
-                        <img src="img/aktiviteler/masaj-aktiviteleri.jpg" alt="">
-                        <div class="desc">
-                            <div class="name">Özel Masajlar</div>
-                            <ul class="list-unstyled list">
-                                <li><i class="ti-check"></i> Hotel ut nisan the duru</li>
-                                <li><i class="ti-check"></i> Orci miss natoque vasa ince</li>
-                                <li><i class="ti-close unavailable"></i>Clean sorem ipsum morbin</li>
-                            </ul>
-                        </div>
-                    </div>
+            <div class="owl-carousel owl-theme">
+                    <?php foreach ($activitiesJSON as $activity) { ?>
+                        <a href="activities-details.php?url=<?= $activity->url ?>">
+                            <div class="pricing-card">
+
+                                <img src="<?= $activity->photo ?>" alt="">
+                                <div class="desc">
+                                    <div class="name"><?= $activity->name ?></div>
+                                    <!-- <div class="amount">$50<span>/ month</span></div> -->
+                                    <ul class="list-unstyled list">
+                                        <li><i class="ti-check"></i> <?= $activity->description ?></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </a>
+                    <?php  } ?>
+
+
+
                 </div>
             </div>
         </div>

@@ -49,6 +49,7 @@
                     <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Pyramid Stone<i class="ti-angle-down"></i></a>
                         <ul class="dropdown-menu">
                         <li><a href="about-us.php" class="dropdown-item"><span>Hakkımızda</span></a></li>
+                        <li><a href="reastaurant.php" class="dropdown-item"><span>Reastaurant</span></a></li>
                             <li><a href="faq.php" class="dropdown-item"><span>Sıkça Sorulan Sorular</span></a></li>
                             
                         </ul>
