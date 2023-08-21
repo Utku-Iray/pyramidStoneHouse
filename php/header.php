@@ -74,7 +74,7 @@
                             </li>
                         </ul>
                     </li> -->
-                    <!-- <li class="nav-item"><a class="nav-link" href="gallery.php">GALERİ</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="gallery.php">GALERİ</a></li>
                     <li class="nav-item"><a class="nav-link" href="activities.php">AKTİVİTELER</a></li>
 
                     <!-- <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">AKTİVİTELER<i class="ti-angle-down"></i></a>
