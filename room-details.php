@@ -116,7 +116,7 @@ foreach ($roomJSON as $singleRoom) {
             <div class="col-md-12">
                 <div class="owl-carousel owl-theme">
                     <?php foreach ($roomJSON as $room) { ?>
-                        # c<div class="item">
+                        <div class="item">
                             <div class="position-re o-hidden"> <img src="<?= $room->photo ?>" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
                             <div class="con">
                                 <!-- <h6><a href="room-details.php">150$ / Night</a></h6> -->
