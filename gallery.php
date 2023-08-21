@@ -1,79 +1,129 @@
 <?php include 'php/head.php' ?>
 <?php include 'php/header.php' ?>
-    <!-- Header Banner -->
-    <div class="banner-header section-padding valign bg-img bg-fixed" data-overlay-dark="4" data-background="img/slider/1.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-left caption mt-90">
-                    <h5>Fotoğraflar & Videolar</h5>
-                    <h1>Galeri</h1>
-                </div>
+<!-- Header Banner -->
+<div class="banner-header section-padding valign bg-img bg-fixed" data-overlay-dark="4" data-background="img/slider/1.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-left caption mt-90">
+                <h5>Fotoğraflar & Videolar</h5>
+                <h1>Galeri</h1>
             </div>
         </div>
     </div>
-    <!-- Image Gallery -->
-    <section class="section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-subtitle">Fotoğraflar</div>
-                    <div class="section-title">Fotoğraf Galeri</div>
-                </div>
-                <!-- 3 columns -->
-                <div class="col-md-4 gallery-item">
-                    <a href="img/slider/7.jpg" title="" class="img-zoom">
-                        <div class="gallery-box">
-                            <div class="gallery-img"> <img src="img/gallery/7.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 gallery-item">
-                    <a href="img/gallery/5.jpg" title="" class="img-zoom">
-                        <div class="gallery-box">
-                            <div class="gallery-img"> <img src="img/gallery/5.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 gallery-item">
-                    <a href="img/gallery/4.jpg" title="" class="img-zoom">
-                        <div class="gallery-box">
-                            <div class="gallery-img"> <img src="img/gallery/4.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- 2 columns -->
-                <div class="col-md-6 gallery-item">
-                    <a href="img/gallery/2.jpg" title="" class="img-zoom">
-                        <div class="gallery-box">
-                            <div class="gallery-img"> <img src="img/gallery/2.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-6 gallery-item">
-                    <a href="img/gallery/1.jpg" title="" class="img-zoom">
-                        <div class="gallery-box">
-                            <div class="gallery-img"> <img src="img/gallery/1.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
-                        </div>
-                    </a>
-                </div><div class="col-md-6 gallery-item">
-                    <a href="img/gallery/1.jpg" title="" class="img-zoom">
-                        <div class="gallery-box">
-                            <div class="gallery-img"> <img src="img/gallery/3.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
-                        </div>
-                    </a>
-                </div><div class="col-md-6 gallery-item">
-                    <a href="img/gallery/1.jpg" title="" class="img-zoom">
-                        <div class="gallery-box">
-                            <div class="gallery-img"> <img src="img/gallery/6.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
-                        </div>
-                    </a>
-                </div>
-              
+</div>
+<!-- Image Gallery -->
+<section class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-subtitle">Fotoğraflar</div>
+                <div class="section-title">Fotoğraf Galeri</div>
             </div>
+            <!-- 3 columns -->
+            <div class="col-md-4 gallery-item">
+                <a href="img/slider/7.jpg" title="" class="img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img/gallery/7.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 gallery-item">
+                <a href="img/gallery/5.jpg" title="" class="img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img/gallery/5.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 gallery-item">
+                <a href="img/gallery/4.jpg" title="" class="img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img/gallery/4.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                    </div>
+                </a>
+            </div>
+            <!-- 2 columns -->
+            <div class="col-md-6 gallery-item">
+                <a href="img/gallery/2.jpg" title="" class="img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img/gallery/2.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 gallery-item">
+                <a href="img/gallery/1.jpg" title="" class="img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img/gallery/1.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 gallery-item">
+                <a href="img/gallery/1.jpg" title="" class="img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img/gallery/3.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 gallery-item">
+                <a href="img/gallery/1.jpg" title="" class="img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img/gallery/6.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 gallery-item">
+                <a href="img/gallery/1.jpg" title="" class="img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img/restaurant/1.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                    </div>
+                </a>
+            </div><div class="col-md-6 gallery-item">
+                <a href="img/gallery/1.jpg" title="" class="img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img/restaurant/2.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 gallery-item">
+                <a href="img/gallery/1.jpg" title="" class="img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img/restaurant/3.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 gallery-item">
+                <a href="img/gallery/1.jpg" title="" class="img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img/restaurant/4.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 gallery-item">
+                <a href="img/gallery/1.jpg" title="" class="img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img/restaurant/5.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 gallery-item">
+                <a href="img/gallery/1.jpg" title="" class="img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img/restaurant/6.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 gallery-item">
+                <a href="img/gallery/1.jpg" title="" class="img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img/restaurant/1.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                    </div>
+                </a>
+            </div>
+
         </div>
-    </section>
-    <!-- Video Gallery -->
-    <!-- <section class="section-padding bg-cream">
+    </div>
+</section>
+<!-- Video Gallery -->
+<!-- <section class="section-padding bg-cream">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -130,8 +180,8 @@
             </div>
         </div>
     </section> -->
-    <!-- Rezervasyon & Booking Form -->
-    <section class="testimonials">
+<!-- Rezervasyon & Booking Form -->
+<section class="testimonials">
     <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/slider/2.jpg" data-overlay-dark="2">
         <div class="container">
             <div class="row">
@@ -213,7 +263,7 @@
         </div>
     </div>
 </section>
-    <!-- Clients -->
-    
-    <!-- Footer -->
-    <?php include 'php/footer.php' ?>
+<!-- Clients -->
+
+<!-- Footer -->
+<?php include 'php/footer.php' ?>
