@@ -32,7 +32,7 @@ include 'php/header.php'
                     <i class="star-rating"></i>
                 </span>
                 <div class="section-subtitle">Pyramid Stone House</div>
-                <div class="section-title">Reastaurant</div>
+                <div class="section-title">Restoran</div>
                 <p>Taş dokulu yüksek duvarları, özenli mimarisi ve konsept ışıklandırması ile kapısından girdiğiniz an sizi büyüleyecek restoranımızda tadacağınız enfes yemekler sizi bambaşka diyarlara götürecek. Uzman şeflerimizin özel reçeteleri ile hazırlanan dünya mutfağından özenle seçilmiş lezzetler damağınızda iz bırakacak. Bu muhteşem lezzet deneyimini yaşamak için sizi restoranımıza bekliyoruz.  </p>
                 <!-- reservation -->
                 <div class="reservations">
