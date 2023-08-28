@@ -23,7 +23,7 @@ $blogJSON = json_decode(file_get_contents('data/blog.json'));
                                 <i class="star-rating"></i>
                                 <i class="star-rating"></i>
                             </span>
-                            <h4>Luxury Hotel & Best Resort</h4>
+                            <h4>Luxury Hotel</h4>
                             <h1>Pyramid Stone House</h1>
                             <div class="butn-light mt-30 mb-30"> <a href="rooms-and-suits.php" data-scroll-nav="1"><span>Odalar & Suitler</span></a> </div>
                         </div>
