@@ -19,11 +19,25 @@
                 <div class="section-subtitle">Fotoğraflar</div>
                 <div class="section-title">Fotoğraf Galeri</div>
             </div>
+            <div class="col-md-6 gallery-item">
+                <a href="img/gallery/1.jpg" title="" class="img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img/gallery/1.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 gallery-item">
+                <a href="img/gallery/6.jpg" title="" class="img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img/gallery/6.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                    </div>
+                </a>
+            </div>
             <!-- 3 columns -->
             <div class="col-md-4 gallery-item">
-                <a href="img/slider/7.jpg" title="" class="img-zoom">
+                <a href="img/slider/4.jpg" title="" class="img-zoom">
                     <div class="gallery-box">
-                        <div class="gallery-img"> <img src="img/gallery/7.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                        <div class="gallery-img"> <img src="img/gallery/4.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
                     </div>
                 </a>
             </div>
@@ -35,13 +49,21 @@
                 </a>
             </div>
             <div class="col-md-4 gallery-item">
-                <a href="img/gallery/4.jpg" title="" class="img-zoom">
+                <a href="img/gallery/7.jpg" title="" class="img-zoom">
                     <div class="gallery-box">
-                        <div class="gallery-img"> <img src="img/gallery/4.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                        <div class="gallery-img"> <img src="img/gallery/7.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
                     </div>
                 </a>
             </div>
             <!-- 2 columns -->
+           
+            <div class="col-md-6 gallery-item">
+                <a href="img/gallery/3.jpg" title="" class="img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img/gallery/3.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                    </div>
+                </a>
+            </div>
             <div class="col-md-6 gallery-item">
                 <a href="img/gallery/2.jpg" title="" class="img-zoom">
                     <div class="gallery-box">
@@ -50,74 +72,47 @@
                 </a>
             </div>
             <div class="col-md-6 gallery-item">
-                <a href="img/gallery/1.jpg" title="" class="img-zoom">
-                    <div class="gallery-box">
-                        <div class="gallery-img"> <img src="img/gallery/1.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-6 gallery-item">
-                <a href="img/gallery/1.jpg" title="" class="img-zoom">
-                    <div class="gallery-box">
-                        <div class="gallery-img"> <img src="img/gallery/3.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-6 gallery-item">
-                <a href="img/gallery/1.jpg" title="" class="img-zoom">
-                    <div class="gallery-box">
-                        <div class="gallery-img"> <img src="img/gallery/6.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-6 gallery-item">
-                <a href="img/gallery/1.jpg" title="" class="img-zoom">
+                <a href="img/restaurant/1.jpg" title="" class="img-zoom">
                     <div class="gallery-box">
                         <div class="gallery-img"> <img src="img/restaurant/1.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
                     </div>
                 </a>
             </div><div class="col-md-6 gallery-item">
-                <a href="img/gallery/1.jpg" title="" class="img-zoom">
+                <a href="img/restaurant/2.jpg" title="" class="img-zoom">
                     <div class="gallery-box">
                         <div class="gallery-img"> <img src="img/restaurant/2.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
                     </div>
                 </a>
             </div>
             <div class="col-md-6 gallery-item">
-                <a href="img/gallery/1.jpg" title="" class="img-zoom">
+                <a href="img/restaurant/3.jpg" title="" class="img-zoom">
                     <div class="gallery-box">
                         <div class="gallery-img"> <img src="img/restaurant/3.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
                     </div>
                 </a>
             </div>
             <div class="col-md-6 gallery-item">
-                <a href="img/gallery/1.jpg" title="" class="img-zoom">
+                <a href="img/restaurant/4.jpg" title="" class="img-zoom">
                     <div class="gallery-box">
                         <div class="gallery-img"> <img src="img/restaurant/4.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
                     </div>
                 </a>
             </div>
             <div class="col-md-6 gallery-item">
-                <a href="img/gallery/1.jpg" title="" class="img-zoom">
+                <a href="img/restaurant/5.jpg" title="" class="img-zoom">
                     <div class="gallery-box">
                         <div class="gallery-img"> <img src="img/restaurant/5.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
                     </div>
                 </a>
             </div>
             <div class="col-md-6 gallery-item">
-                <a href="img/gallery/1.jpg" title="" class="img-zoom">
+                <a href="img/restaurant/6.jpg" title="" class="img-zoom">
                     <div class="gallery-box">
                         <div class="gallery-img"> <img src="img/restaurant/6.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
                     </div>
                 </a>
             </div>
-            <div class="col-md-6 gallery-item">
-                <a href="img/gallery/1.jpg" title="" class="img-zoom">
-                    <div class="gallery-box">
-                        <div class="gallery-img"> <img src="img/restaurant/1.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
-                    </div>
-                </a>
-            </div>
+           
 
         </div>
     </div>
