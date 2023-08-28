@@ -68,7 +68,7 @@ $index2 = 0;
                                                                 </ul>
                                                             </div>
                                                             <div class="col col-md-5 text-end">
-                                                                <div class="permalink"><a href="room-details.php">Detaylar <i class="ti-arrow-right"></i></a></div>
+                                                                <div class="permalink"><a href="room-details.php?url=<?= $singleRoom->url ?>">Detaylar <i class="ti-arrow-right"></i></a></div>
                                                             </div>
                                                         </div>
                                                     </div>
