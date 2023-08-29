@@ -74,7 +74,7 @@
         <!-- Map Section -->
         <div class="row">
             <div class="col-md-12 map animate-box" data-animate-effect="fadeInUp">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6233.758931670198!2d34.79546454690695!3d38.62865386860622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152a695265b86b87%3A0x4c9223bfe76fe52f!2sPyramid%20Stone%20House%20Hotel!5e0!3m2!1str!2str!4v1691587459498!5m2!1str!2str" width="100%" height="650px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d779.2773851990422!2d34.798324269596094!3d38.62336099823649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzjCsDM3JzI0LjEiTiAzNMKwNDcnNTYuMyJF!5e0!3m2!1str!2str!4v1693307325375!5m2!1str!2str" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
