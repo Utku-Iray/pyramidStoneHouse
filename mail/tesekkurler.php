@@ -22,7 +22,7 @@ $Mesaj = "
 // $ekle= "insert into urunler (nameSurname, phone, subject, note, mail)  VALUES ('".$nameSurname."','".$phone."','".$subject."','".$note."','".$mail."')";
 function mailgonder(){
 
-         require "inc/class.phpmailer.php"; // PHPMailer dosyamızı çağırıyoruz  
+         require "class.phpmailer.php"; // PHPMailer dosyamızı çağırıyoruz  
          $mail = new PHPMailer();   
          $mail->IsSMTP();
          $mail->From     = "utah2@alondanbilisim.com"; //Gönderen kısmında yer alacak e-mail adresi  
@@ -40,7 +40,7 @@ function mailgonder(){
 
          $mail->Body = "Adı Soyadı: ".$_POST['customerNameSurname'] . "<br>Telefon Numarası: " . $_POST['customerPhone'] . "<br>Konu: " . $_POST['customerSubject']. "<br>Not: ". $_POST['customerNote'] . "<br>Mail adresi: " . $_POST['customerMail'];
          $mail->AltBody = strip_tags("mesaj");
-         $mail->AddAddress("utku.iray.99@gmail.com"); 
+         $mail->AddAddress("info@pyramidstonehouse.com"); 
          return ($mail->Send())?true:false;      
          $mail->ClearAddresses();  
          $mail->ClearAttachments();
