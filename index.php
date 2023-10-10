@@ -1,4 +1,4 @@
-<?php include 'php/head.php';
+﻿<?php include 'php/head.php';
 include 'php/header.php';
 $categoryJSON = json_decode(file_get_contents('data/category.json'));
 $activitiesJSON = json_decode(file_get_contents('data/activities.json'));
@@ -66,7 +66,7 @@ $blogJSON = json_decode(file_get_contents('data/blog.json'));
 <div class="booking-wrapper">
     <div class="container">
         <div class="booking-inner clearfix">
-            <form action="rooms.html" class="form1 clearfix">
+            <form action="https://cappadocia-pyramid-stone-house.hotelrunner.com/bv3/search" class="form1 clearfix">
                 <div class="col1 c1">
                     <div class="input1_wrapper">
                         <label>Giriş</label>
@@ -452,7 +452,7 @@ $blogJSON = json_decode(file_get_contents('data/blog.json'));
                             <h4>Otel Rezervasyon Formu</h4>
                         </div>
                         <div class="booking-inner clearfix">
-                            <form action="rooms2.html" class="form1 clearfix">
+                            <form action="https://cappadocia-pyramid-stone-house.hotelrunner.com/bv3/search" class="form1 clearfix">
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="input1_wrapper">
