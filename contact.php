@@ -40,7 +40,7 @@
             </div>
             <div class="col-md-5 mb-30 offset-md-1">
                 <h3>Bizimle İletişime Geçin</h3>
-                <form action="mail/tesekkurler.php" method="POST" >
+                <form action="mail/tesekkurler" method="POST" >
                     <!-- form message -->
                     <!-- <div class="row">
                         <div class="col-12">
