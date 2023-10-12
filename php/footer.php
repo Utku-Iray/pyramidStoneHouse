@@ -71,6 +71,7 @@
 <script src="js/datepicker.js"></script>
 <script src="js/smooth-scroll.min.js"></script>
 <script src="js/custom.js"></script>
+<script id='hr_widget_script' async='true' src='//cappadocia-pyramid-stone-house.hotelrunner.com/widgets/49cac1a4f072f43511cd/search_widget.js?v=1.0.0'></script>
 </body>
 
 </html>

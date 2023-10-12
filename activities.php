@@ -64,57 +64,35 @@ $activitiesJSON = json_decode(file_get_contents('data/activities.json'));
                             <h4>Otel Rezervasyon Formu</h4>
                         </div>
                         <div class="booking-inner clearfix">
-                            <form action="rooms2.html" class="form1 clearfix">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="input1_wrapper">
-                                            <label>Giriş</label>
-                                            <div class="input1_inner">
-                                                <input type="text" class="form-control input datepicker" placeholder="Giriş">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="input1_wrapper">
-                                            <label>Çıkış</label>
-                                            <div class="input1_inner">
-                                                <input type="text" class="form-control input datepicker" placeholder="Çıkış">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="select1_wrapper">
-                                            <label>Kişi</label>
-                                            <div class="select1_inner">
-                                                <select class="select2 select" style="width: 100%">
-                                                    <option value="0">Kişi</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="select1_wrapper">
-                                            <label>Çocuk</label>
-                                            <div class="select1_inner">
-                                                <select class="select2 select" style="width: 100%">
-                                                    <option value="0">Çocuk</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <button type="submit" class="btn-form1-submit mt-15">Rezervasyon</button>
-                                    </div>
-                                </div>
-                            </form>
+                            <form action="mail/tesekkurler" method="POST">
+                    <!-- form message -->
+                    <!-- <div class="row">
+                        <div class="col-12">
+                            <div class="alert alert-success contact__msg" style="display: none" role="alert"> Your message was sent successfully. </div>
+                        </div>
+                    </div> -->
+                    <!-- form elements -->
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <input name="customerNameSurname" type="text" placeholder="Adınız *" required="">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <input name="customerMail" type="email" placeholder="E-Mail *" required="">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <input name="customerPhone" type="text" placeholder="Numaranız *" required="">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <input name="customerSubject" type="text" placeholder="Konu *" required="">
+                        </div>
+                        <div class="col-md-12 form-group">
+                            <textarea name="customerNote" cols="30" rows="4" placeholder="Mesaj *" required=""></textarea>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" class="butn-dark2"><span>Gönder</span></button>
+                        </div>
+                    </div>
+                </form>
                         </div>
                     </div>
                 </div>

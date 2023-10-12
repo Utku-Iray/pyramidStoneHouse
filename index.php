@@ -63,70 +63,14 @@ $blogJSON = json_decode(file_get_contents('data/blog.json'));
         </a>
     </div>
 </header>
+
+
+
 <div class="booking-wrapper">
     <div class="container">
         <div class="booking-inner clearfix">
-            <form action="https://cappadocia-pyramid-stone-house.hotelrunner.com/bv3/search" class="form1 clearfix">
-                <div class="col1 c1">
-                    <div class="input1_wrapper">
-                        <label>Giriş</label>
-                        <div class="input1_inner">
-                            <input type="text" class="form-control input datepicker" placeholder="Giriş">
-                        </div>
-                    </div>
-                </div>
-                <div class="col1 c2">
-                    <div class="input1_wrapper">
-                        <label>Çıkış</label>
-                        <div class="input1_inner">
-                            <input type="text" class="form-control input datepicker" placeholder="Çıkış">
-                        </div>
-                    </div>
-                </div>
-                <div class="col2 c3">
-                    <div class="select1_wrapper">
-                        <label>Kişi</label>
-                        <div class="select1_inner">
-                            <select class="select2 select" style="width: 100%">
-                                <option value="1">1 Kişi</option>
-                                <option value="2">2 Kişi</option>
-                                <option value="3">3 Kişi</option>
-                                <option value="4">4 Kişi</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="col2 c4">
-                    <div class="select1_wrapper">
-                        <label>Çocuk</label>
-                        <div class="select1_inner">
-                            <select class="select2 select" style="width: 100%">
-                                <option value="1">Çocuk</option>
-                                <option value="1">1 Child</option>
-                                <option value="2">2 Çocuk</option>
-                                <option value="3">3 Çocuk</option>
-                                <option value="4">4 Çocuk</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div class="col2 c5">
-                    <div class="select1_wrapper">
-                        <label>Rooms</label>
-                        <div class="select1_inner">
-                            <select class="select2 select" style="width: 100%">
-                                <option value="1">1 Room</option>
-                                <option value="2">2 Rooms</option>
-                                <option value="3">3 Rooms</option>
-                                <option value="4">4 Rooms</option>
-                            </select>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="col3 c6">
-                    <button type="submit" class="btn-form1-submit">Rezervasyon</button>
-                </div>
-            </form>
+
+            <div id='hr_search_widget'></div>
         </div>
     </div>
 </div>
@@ -347,10 +291,10 @@ $blogJSON = json_decode(file_get_contents('data/blog.json'));
                         </div>
                         <h4>Balayı Paketimiz</h4>
                         <p>Özel karşılama ve hoş geldin ikramı,
-                           <br> Odaya Şarap & meyve tabağı ikramı,
-                           <br> Erken giriş ve geç çıkış imkânı (müsaitliğe göre öncelik tanınacaktır),
-                           <br> Özel balayı oda süslemesi (istek üzerine, ücretli olacaktır),
-                           <br> Odaya sabah kahvaltısı (konaklama boyunca 1 kez ve istek üzerine),
+                            <br> Odaya Şarap & meyve tabağı ikramı,
+                            <br> Erken giriş ve geç çıkış imkânı (müsaitliğe göre öncelik tanınacaktır),
+                            <br> Özel balayı oda süslemesi (istek üzerine, ücretli olacaktır),
+                            <br> Odaya sabah kahvaltısı (konaklama boyunca 1 kez ve istek üzerine),
                         </p>
                     </div>
                 </div>
@@ -452,54 +396,32 @@ $blogJSON = json_decode(file_get_contents('data/blog.json'));
                             <h4>Otel Rezervasyon Formu</h4>
                         </div>
                         <div class="booking-inner clearfix">
-                            <form action="https://cappadocia-pyramid-stone-house.hotelrunner.com/bv3/search" class="form1 clearfix">
+                            <form action="mail/tesekkurler" method="POST">
+                                <!-- form message -->
+                                <!-- <div class="row">
+                        <div class="col-12">
+                            <div class="alert alert-success contact__msg" style="display: none" role="alert"> Your message was sent successfully. </div>
+                        </div>
+                    </div> -->
+                                <!-- form elements -->
                                 <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="input1_wrapper">
-                                            <label>Giriş</label>
-                                            <div class="input1_inner">
-                                                <input type="text" class="form-control input datepicker" placeholder="Giriş">
-                                            </div>
-                                        </div>
+                                    <div class="col-md-6 form-group">
+                                        <input name="customerNameSurname" type="text" placeholder="Adınız *" required="">
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <input name="customerMail" type="email" placeholder="E-Mail *" required="">
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <input name="customerPhone" type="text" placeholder="Numaranız *" required="">
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <input name="customerSubject" type="text" placeholder="Konu *" required="">
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        <textarea name="customerNote" cols="30" rows="4" placeholder="Mesaj *" required=""></textarea>
                                     </div>
                                     <div class="col-md-12">
-                                        <div class="input1_wrapper">
-                                            <label>Çıkış</label>
-                                            <div class="input1_inner">
-                                                <input type="text" class="form-control input datepicker" placeholder="Çıkış">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="select1_wrapper">
-                                            <label>Kişi</label>
-                                            <div class="select1_inner">
-                                                <select class="select2 select" style="width: 100%">
-                                                    <option value="0">Kişi</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="select1_wrapper">
-                                            <label>Çocuk</label>
-                                            <div class="select1_inner">
-                                                <select class="select2 select" style="width: 100%">
-                                                    <option value="0">Çocuk</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <button type="submit" class="btn-form1-submit mt-15">Rezervasyon</button>
+                                        <button type="submit" class="butn-dark2"><span>Gönder</span></button>
                                     </div>
                                 </div>
                             </form>
