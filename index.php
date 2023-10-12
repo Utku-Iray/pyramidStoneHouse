@@ -1,4 +1,4 @@
-﻿<?php include 'php/head.php';
+<?php include 'php/head.php';
 include 'php/header.php';
 $categoryJSON = json_decode(file_get_contents('data/category.json'));
 $activitiesJSON = json_decode(file_get_contents('data/activities.json'));
